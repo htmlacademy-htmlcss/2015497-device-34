@@ -97,10 +97,12 @@
           <!-- Фильтрация -->
           <h3 class="catalog-filter-title">фильтр:</h3>
           <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+
             <fieldset class="catalog-filter-group">
               <legend class="catalog-filter-group-title">Стоимость</legend>
               <!-- Range bar разметим позже -->
             </fieldset>
+
             <fieldset class="catalog-filter-group">
               <legend class="catalog-filter-group-title">Цвет</legend>
               <ul class="catalog-filter-list">
@@ -136,8 +138,22 @@
                 </li>
               </ul>
             </fieldset>
+
             <fieldset class="catalog-filter-group">
               <legend class="catalog-filter-group-title">Bluetooth</legend>
+              <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="есть" checked>
+                    <span class="control label">Есть</span>
+                  </label>
+                  <label class="control">
+                    <input class="control-input" type="radio" name="нет">
+                    <span class="control label">Нет</span>
+                  </label>
+                </li>
+                </li>
+              </ul>
             </fieldset>
           </form>
         </section>
