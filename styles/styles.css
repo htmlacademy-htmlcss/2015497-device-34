@@ -304,3 +304,65 @@ body {
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
+
+
+/* Сортировка */
+.sort-title {
+  font-family: raleway;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.select-control {
+  font: inherit;
+}
+
+
+/* Список товаров */
+.product-card-content-link {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  color: #000000;
+}
+
+.product-card-price {
+  line-height: 21px;
+  color: #444444;
+}
+
+
+/* Загрузить еще */
+.load-more-button {
+  font-family: raleway;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+/* Пагинация */
+.pagination-link {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: rgba(68, 68, 68, 0.3);
+}
+
+.pagination-prev,
+.pagination-next {
+  font-family: raleway;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
