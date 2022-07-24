@@ -175,3 +175,38 @@ body {
   text-decoration: none;
   color: #000000;
 }
+
+
+/* Информация */
+.info-title {
+  font-family: raleway;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.info-discription {
+  color: #444444;
+}
+
+.type-delivery-item {
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+
+.info-link {
+  font-family: raleway;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.address-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #444444;
+}
