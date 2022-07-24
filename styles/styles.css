@@ -55,3 +55,10 @@ body {
   width: 1160px;
   color: #FFFFFF;
 }
+
+/* Шапка */
+.header-field {
+  font: inherit;
+  font-size: 16px;
+  line-height: 20px;
+}
