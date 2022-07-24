@@ -48,3 +48,10 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 } */
+
+.page-container {
+  margin: 0 auto;
+  flex-grow: 1;
+  width: 1160px;
+  color: #FFFFFF;
+}
