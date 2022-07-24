@@ -259,3 +259,48 @@ body {
   text-decoration: none;
   color: #FFFFFF;
 }
+
+
+/* Шапка каталога */
+.inner-header-title {
+  font-family: raleway;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #000000;
+}
+
+
+/* Фильтрация */
+.catalog-filter-title {
+  font-family: raleway;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.catalog-filter-group-title {
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+
+.control-label {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.catalog-filter-button {
+  font-family: raleway;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
