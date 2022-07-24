@@ -62,3 +62,22 @@ body {
   font-size: 16px;
   line-height: 20px;
 }
+
+.search-button {
+  font: inherit;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.login-button {
+  font: inherit;
+}
+
+.compare-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.cart-button {
+  font: inherit;
+}
