@@ -53,7 +53,6 @@ body {
   margin: 0 auto;
   flex-grow: 1;
   width: 1160px;
-  color: #FFFFFF;
 }
 
 /* Шапка */
@@ -85,9 +84,9 @@ body {
 .navigation-link {
   font-family: raleway;
   line-height: 21px;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 0.2em;
   color: #000000;
 }
 
@@ -96,4 +95,35 @@ body {
   line-height: 18px;
   text-decoration: none;
   color: #000000;
+}
+
+/* Слайдер */
+.property-title {
+  font-family: raleway;
+  font-size: 50px;
+  line-height: 50px;
+ }
+
+.property-discription {
+  color: #444444;
+}
+
+.property-link {
+  font-family: raleway;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.property-specification {
+  font-size: 36px;
+  line-height: 30px;
+}
+
+.property-specification-title {
+  font-size: 16px;
+  color: #444444;
 }
