@@ -230,3 +230,32 @@ body {
 .subscribe-free {
   color: #444444;
 }
+
+
+/* Футер */
+.page-footer {
+  background-color: #444444;
+}
+
+.footer-address-text {
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.footer-nav-link {
+  font-family: raleway;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer-address-phone {
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
