@@ -119,7 +119,7 @@ body {
 
 .header-field:disabled,
 .header-field:disabled ~ .search-icon-button {
-   opacity: 0.3;
+  opacity: 0.3;
 }
 
 .search-button {
@@ -152,9 +152,9 @@ body {
 }
 
 .search-button:disabled {
- color: inherit;
- opacity: 0.3;
- cursor: auto;
+  color: inherit;
+  opacity: 0.3;
+  cursor: auto;
 }
 
 .login-button {
@@ -192,7 +192,7 @@ body {
   font-family: raleway;
   font-size: 50px;
   line-height: 50px;
- }
+}
 
 .property-discription {
   color: #444444;
