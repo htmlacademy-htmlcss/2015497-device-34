@@ -62,6 +62,22 @@ body {
   padding: 4px 60px 0;
 }
 
+.page-logo {
+  display: block;
+  margin-bottom: 30px;
+  max-width: 300px;
+  max-height: 36px;
+  cursor: pointer;
+}
+
+.page-logo:hover {
+  opacity: 0.6;
+}
+
+.page-logo:active {
+  opacity: 0.3;
+}
+
 .header-field {
   font: inherit;
   font-size: 16px;
