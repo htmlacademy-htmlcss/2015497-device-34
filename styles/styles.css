@@ -82,7 +82,14 @@ body {
   display: flex;
 }
 
+.header-search-form {
+  position: relative;
+}
+
 .search-icon-button {
+  position: absolute;
+  top: 14px;
+  left: 20px;
   padding: 0;
   border: none;
   width: 16px;
@@ -92,9 +99,14 @@ body {
 }
 
 .header-field {
+  box-sizing: border-box;
+  width: 359px;
+  padding: 10px 150px 10px 48px;
   font: inherit;
   font-size: 16px;
   line-height: 20px;
+  border: 2px solid;
+  border-radius: 50px 0 0 50px;
 }
 
 .search-button {
