@@ -101,13 +101,14 @@ body {
 }
 
 .header-field {
+  position: relative;
   box-sizing: border-box;
   width: 359px;
   padding: 10px 150px 10px 48px;
   font: inherit;
   font-size: 16px;
   line-height: 20px;
-  border: 2px solid;
+  border: 2px solid #000000;
   border-radius: 50px 0 0 50px;
 }
 
@@ -116,8 +117,9 @@ body {
   outline: 2px solid #AF4FFF;
 }
 
-.header-field:disabled ~ button {
-  opacity: 0.3;
+.header-field:disabled,
+.header-field:disabled ~ .search-icon-button {
+   opacity: 0.3;
 }
 
 .search-button {
@@ -132,6 +134,27 @@ body {
   border-radius: 0 50px 50px 0;
   background-color: #FFFFFF;
   cursor: pointer;
+}
+
+.search-button:hover:not(:disabled) {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.search-button:active {
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.search-button:focus {
+  outline-offset: 2px;
+  outline: 2px solid #AF4FFF;
+}
+
+.search-button:disabled {
+ color: inherit;
+ opacity: 0.3;
+ cursor: auto;
 }
 
 .login-button {
