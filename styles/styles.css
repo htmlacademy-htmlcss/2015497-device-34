@@ -96,6 +96,7 @@ body {
   height: 16px;
   background: url(../images/icons/search-icon.svg) no-repeat;
   cursor: pointer;
+  outline: none;
 }
 
 .header-field {
@@ -107,6 +108,15 @@ body {
   line-height: 20px;
   border: 2px solid;
   border-radius: 50px 0 0 50px;
+}
+
+.header-field:focus {
+  outline-offset: 2px;
+  outline: 2px solid #AF4FFF;
+}
+
+.header-field:disabled ~ button {
+  opacity: 0.3;
 }
 
 .search-button {
