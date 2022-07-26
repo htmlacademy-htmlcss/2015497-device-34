@@ -343,6 +343,22 @@ body {
   color: #FFFFFF;
 }
 
+.popover-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 20px;
+  background-color: #1A1A1A;
+}
+
+.popover-total-discription {
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
 /* Главная навигация */
 .navigation-list {
   display: flex;
