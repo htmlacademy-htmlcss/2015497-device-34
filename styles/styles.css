@@ -193,6 +193,7 @@ body {
 }
 
 .login-button:focus {
+  outline-offset: 2px;
   outline: 2px solid #AF4FFF;
 }
 
@@ -217,6 +218,19 @@ body {
   width: 10px;
   height: 12px;
   background: url(../images/icons/compare-icon.svg) no-repeat;
+}
+
+.compare-button:hover {
+  opacity: 0.6;
+}
+
+.compare-button:active {
+  opacity: 0.3;
+}
+
+.compare-button:focus {
+  outline-offset: 2px;
+  outline: 2px solid #AF4FFF;
 }
 
 .cart-button {
