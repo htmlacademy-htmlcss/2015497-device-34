@@ -307,6 +307,19 @@ body {
   color: #000000;
 }
 
+.navigation-link:hover {
+  opacity: 0.6;
+}
+
+.navigation-link:active {
+  opacity: 0.3;
+}
+
+.navigation-link:focus {
+  outline-offset: 2px;
+  outline: 2px solid #AF4FFF;
+}
+
 .catalog-toggler-link {
    margin-right: 345px;
    white-space: nowrap;
@@ -330,6 +343,7 @@ body {
 .navigation-warranty-link {
   margin-right: 38px;
 }
+
 
 /* Слайдер */
 .property-title {
