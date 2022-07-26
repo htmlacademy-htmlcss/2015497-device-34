@@ -83,6 +83,7 @@ body {
 
 /* User меню */
 .user-menu-wrapper {
+  position: relative;
   display: flex;
   margin-bottom: 30px;
 }
@@ -298,6 +299,10 @@ body {
   outline-offset: 2px;
   outline: 2px solid #AF4FFF;
 }
+
+
+/* Поповер */
+
 
 
 /* Главная навигация */
