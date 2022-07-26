@@ -234,7 +234,38 @@ body {
 }
 
 .cart-button {
+  position: relative;
+  box-sizing: border-box;
+  width: 117px;
+  padding: 0;
+  padding-left: 43px;
   font: inherit;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-button::before {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  content: "";
+  width: 16px;
+  height: 14px;
+  background: url(../images/icons/cart-icon.svg) no-repeat;
+}
+
+.cart-button::after {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  content: "2";
+  width: 21px;
+  height: 21px;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
 }
 
 .navigation-link {
