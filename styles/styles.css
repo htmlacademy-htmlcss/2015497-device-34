@@ -348,6 +348,7 @@ body {
   justify-content: space-between;
   align-items: center;
   min-height: 44px;
+  margin-bottom: 20px;
   padding: 0 20px;
   background-color: #1A1A1A;
 }
@@ -358,6 +359,22 @@ body {
   line-height: 20px;
   color: #FFFFFF;
 }
+
+.popover-button {
+  width: 280px;
+  margin: 0 20px;
+  padding: 14px 25px;
+  font-family: raleway;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border: none;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
 
 /* Главная навигация */
 .navigation-list {
