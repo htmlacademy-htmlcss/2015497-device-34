@@ -299,6 +299,7 @@ body {
 }
 
 .navigation-link {
+  display: block;
   font-family: raleway;
   line-height: 21px;
   letter-spacing: 0.2em;
@@ -307,11 +308,11 @@ body {
   color: #000000;
 }
 
-.navigation-link:hover {
+.navigation-link:hover:not(.catalog-toggler-link) {
   opacity: 0.6;
 }
 
-.navigation-link:active {
+.navigation-link:active:not(.catalog-toggler-link) {
   opacity: 0.3;
 }
 
@@ -321,7 +322,8 @@ body {
 }
 
 .catalog-toggler-link {
-   margin-right: 345px;
+   min-width: 293px;
+   margin-right: 276px;
    white-space: nowrap;
 }
 
@@ -341,7 +343,7 @@ body {
 }
 
 .navigation-warranty-link {
-  margin-right: 38px;
+  margin-right: 40px;
 }
 
 
