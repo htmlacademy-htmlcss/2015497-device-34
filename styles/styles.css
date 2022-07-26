@@ -163,8 +163,9 @@ body {
 .login-button {
   position: relative;
   box-sizing: border-box;
-  min-width: 231px;
+  width: 231px;
   margin-right: 26px;
+  padding: 0;
   padding-left: 27px;
   font: inherit;
   text-align: left;
@@ -195,9 +196,27 @@ body {
   outline: 2px solid #AF4FFF;
 }
 
-.compare-link {
-  text-decoration: none;
-  color: #000000;
+.compare-button {
+  position: relative;
+  box-sizing: border-box;
+  width: 105px;
+  margin-right: auto;
+  padding: 0;
+  padding-left: 22px;
+  font: inherit;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.compare-button::before {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  content: "";
+  width: 10px;
+  height: 12px;
+  background: url(../images/icons/compare-icon.svg) no-repeat;
 }
 
 .cart-button {
