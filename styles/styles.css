@@ -302,8 +302,34 @@ body {
 
 
 /* Поповер */
+.popover {
+  position: absolute;
+  top: 40px;
+  right: -80px;
+  z-index: 1;
+  width: 320px;
+  min-height: 301px;
+  background-color: #000000;
+}
 
+.popover-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  list-style-type: none;
+}
 
+.popover-item {
+  display: flex;
+}
+
+.popover-item + .popover-item {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
 
 /* Главная навигация */
 .navigation-list {
