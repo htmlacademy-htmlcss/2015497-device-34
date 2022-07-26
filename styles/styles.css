@@ -183,6 +183,18 @@ body {
   background: url(../images/icons/login-icon.svg) no-repeat;
 }
 
+.login-button:hover {
+  opacity: 0.6;
+}
+
+.login-button:active {
+  opacity: 0.3;
+}
+
+.login-button:focus {
+  outline: 2px solid #AF4FFF;
+}
+
 .compare-link {
   text-decoration: none;
   color: #000000;
