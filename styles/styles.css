@@ -290,6 +290,7 @@ body {
 /* Главная навигация */
 .navigation-list {
   display: flex;
+  flex-wrap: wrap;
   max-width: 1040px;
   margin: 0;
   padding: 0;
@@ -327,7 +328,7 @@ body {
 }
 
 .navigation-warranty-link {
-  margin-right: 41px;
+  margin-right: 38px;
 }
 
 /* Слайдер */
