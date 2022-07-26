@@ -84,6 +84,7 @@ body {
 /* User меню */
 .user-menu-wrapper {
   display: flex;
+  margin-bottom: 30px;
 }
 
 .header-search-form {
@@ -287,6 +288,15 @@ body {
 
 
 /* Главная навигация */
+.navigation-list {
+  display: flex;
+  max-width: 1040px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  list-style-type: none;
+}
+
 .navigation-link {
   font-family: raleway;
   line-height: 21px;
@@ -296,6 +306,15 @@ body {
   color: #000000;
 }
 
+.catalog-toggler-link {
+   margin-right: 345px;
+   white-space: nowrap;
+}
+
+.navigation-sublist {
+  display: none;
+}
+
 .navigation-sublink {
   font-size: 16px;
   line-height: 18px;
@@ -303,6 +322,13 @@ body {
   color: #000000;
 }
 
+.navigation-delivery-link {
+  margin-right: 47px;
+}
+
+.navigation-warranty-link {
+  margin-right: 41px;
+}
 
 /* Слайдер */
 .property-title {
