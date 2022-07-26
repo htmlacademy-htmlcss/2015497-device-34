@@ -107,6 +107,7 @@ body {
   font: inherit;
   font-size: 16px;
   line-height: 20px;
+  background-color: transparent;
   border: 2px solid #000000;
   border-radius: 50px 0 0 50px;
 }
@@ -114,7 +115,8 @@ body {
 .header-field:focus {
   outline-offset: 2px;
   outline: 2px solid #AF4FFF;
-}
+   /* Линия должна иметь прямые углы - в работе */
+ }
 
 .header-field:disabled,
 .header-field:disabled ~ .search-icon-button {
@@ -124,6 +126,7 @@ body {
 .search-button {
   box-sizing: border-box;
   max-width: 160px;
+  margin-right: 26px;
   padding: 10px 56px;
   font: inherit;
   font-size: 16px;
@@ -131,7 +134,7 @@ body {
   border: 2px solid #000000;
   border-left: none;
   border-radius: 0 50px 50px 0;
-  background-color: #FFFFFF;
+  background-color: transparent;
   cursor: pointer;
 }
 
@@ -143,6 +146,7 @@ body {
 .search-button:focus {
   outline-offset: 2px;
   outline: 2px solid #AF4FFF;
+  /* Линия должна иметь прямые углы - в работе */
 }
 
 .search-button:active {
@@ -157,7 +161,15 @@ body {
 }
 
 .login-button {
+  box-sizing: border-box;
+  min-width: 231px;
+  margin-right: 26px;
+  padding-left: 27px;
   font: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .compare-link {
