@@ -601,13 +601,19 @@ body {
 }
 
 .info-discription {
-  color: #444444;
+   color: #444444;
 }
 
 .type-delivery-item {
   font-weight: 700;
   line-height: 20px;
   letter-spacing: -0.02em;
+}
+
+.address-link {
+  font-style: normal;
+  color: #444444;
+  text-decoration: none;
 }
 
 .info-link {
