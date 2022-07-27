@@ -654,6 +654,7 @@ body {
 }
 
 .footer-address-text {
+  font-style: normal;
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
