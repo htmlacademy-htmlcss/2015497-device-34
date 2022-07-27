@@ -302,10 +302,15 @@ body {
 
 
 /* Поповер */
+.popover-open {
+  display: block;
+}
+
 .popover {
   position: absolute;
   top: 40px;
   right: -80px;
+  display: none;
   z-index: 1;
   width: 320px;
   min-height: 301px;
