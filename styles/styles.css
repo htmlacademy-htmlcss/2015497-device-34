@@ -315,24 +315,26 @@ body {
 .popover-list {
   display: flex;
   flex-direction: column;
-  margin: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
   padding: 0;
   list-style-type: none;
 }
 
 .popover-item {
   position: relative;
+  display: flex;
+  padding-top: 20px;
 }
 
 .popover-item + .popover-item {
   margin-top: 20px;
-  padding-top: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .popover-link {
   display: flex;
-  max-width: 183px;
+  max-width: 230px;
   margin-left: 20px;
   text-decoration: none;
 }
@@ -360,6 +362,50 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
+}
+
+.popover-close-button {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.popover-close-button::after,
+.popover-close-button::before {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  content: "";
+  width: 10px;
+  height: 1px;
+  background-color: #FFFFFF;
+}
+
+.popover-close-button::after {
+  transform: rotate(45deg);
+}
+
+.popover-close-button::before {
+  transform: rotate(-45deg);
+}
+
+.popover-close-button:hover {
+  opacity: 0.6;
+}
+
+.popover-close-button:active {
+  opacity: 0.3;
+}
+
+.popover-close-button:focus {
+  outline-offset: 2px;
+  outline: 2px solid #AF4FFF;
 }
 
 .popover-total {
