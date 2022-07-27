@@ -112,11 +112,22 @@ body {
   outline: none;
 }
 
-.header-field:focus {
-  outline-offset: 2px;
-  outline: 2px solid #AF4FFF;
-  /* Линия должна иметь прямые углы - в работе, с полем не получается, как с кнопкой*/
+.header-field-wrapper::after {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  content: "";
+  width: 363px;
+  height: 48px;
+  border: 2px solid #AF4FFF;
+  opacity: 0;
 }
+
+.header-field:focus + .header-field-wrapper {
+  opacity: 1;
+  /* Не срабатывает появление псевдоэл. при фокусе поля */
+}
+
 
 .header-field:disabled,
 .header-field:disabled ~ .search-icon {
