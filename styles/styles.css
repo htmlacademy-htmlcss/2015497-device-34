@@ -320,6 +320,10 @@ body {
   list-style-type: none;
 }
 
+.popover-item {
+  position: relative;
+}
+
 .popover-item + .popover-item {
   margin-top: 20px;
   padding-top: 20px;
@@ -328,11 +332,25 @@ body {
 
 .popover-link {
   display: flex;
+  max-width: 183px;
+  margin-left: 20px;
   text-decoration: none;
 }
 
+.popover-link:hover {
+  opacity: 0.6;
+}
+
+.popover-link:active {
+  opacity: 0.3;
+}
+
+.popover-link:focus {
+  outline-offset: 2px;
+  outline: 2px solid #AF4FFF;
+}
+
 .popover-image {
-  margin-left: 20px;
   margin-right: 23px;
 }
 
