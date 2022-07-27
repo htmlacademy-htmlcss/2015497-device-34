@@ -57,7 +57,7 @@ body {
 
 
 /* Шапка */
-.header-container {
+.page-header {
   margin: 15px auto 0;
   padding: 4px 60px 0;
 }
@@ -93,21 +93,13 @@ body {
   display: flex;
 }
 
-.search-icon-button {
+.search-icon {
   position: absolute;
-  top: 14px;
-  left: 20px;
-  padding: 0;
-  border: none;
-  width: 16px;
-  height: 16px;
-  background: url(../images/icons/search-icon.svg) no-repeat;
-  cursor: pointer;
-  outline: none;
+  top: 15px;
+  left: 16px;
 }
 
 .header-field {
-  position: relative;
   box-sizing: border-box;
   max-width: 359px;
   padding: 10px 150px 10px 48px;
@@ -117,23 +109,17 @@ body {
   background-color: transparent;
   border: 2px solid #000000;
   border-radius: 50px 0 0 50px;
+  outline: none;
 }
 
-.header-field:focus::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  width: 363px;
-  height: 44px;
-  border: 2px solid #AF4FFF;
-  /* outline-offset: 2px;
-  outline: 2px solid #AF4FFF; */
+.header-field:focus {
+  outline-offset: 2px;
+  outline: 2px solid #AF4FFF;
   /* Линия должна иметь прямые углы - в работе, с полем не получается, как с кнопкой*/
 }
 
 .header-field:disabled,
-.header-field:disabled ~ .search-icon-button {
+.header-field:disabled ~ .search-icon {
   opacity: 0.3;
 }
 
