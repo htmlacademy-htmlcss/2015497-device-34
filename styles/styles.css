@@ -1,24 +1,24 @@
 @font-face {
-  font-family: "raleway";
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
-  src: url(../fonts/raleway/raleway-800.woff2) format("woff2");
+  src: url(../fonts/Raleway/Raleway-800.woff2) format("woff2");
   font-display: swap;
 }
 
 @font-face {
-  font-family: "rubik";
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/rubik/rubik-400.woff2) format("woff2");
+  src: url(../fonts/Rubik/Rubik-400.woff2) format("woff2");
   font-display: swap;
 }
 
 @font-face {
-  font-family: "rubik";
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 700;
-  src: url(../fonts/rubik/rubik-700.woff2) format("woff2");
+  src: url(../fonts/Rubik/Rubik-700.woff2) format("woff2");
   font-display: swap;
 }
 
@@ -31,7 +31,7 @@ body {
   flex-direction: column;
   margin: 0;
   min-height: 100%;
-  font-family: rubik, Arial, sans-serif;
+  font-family: Rubik, Arial, sans-serif;
   font-size: 18px;
   line-height: 30px;
   color: #000000;
@@ -429,7 +429,7 @@ body {
   width: 280px;
   margin: 0 20px 20px;
   padding: 14px 25px;
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.2em;
@@ -468,7 +468,7 @@ body {
 
 .navigation-link {
   display: block;
-  font-family: raleway;
+  font-family: Raleway;
   line-height: 21px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -517,7 +517,7 @@ body {
 
 /* Слайдер */
 .property-title {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 50px;
   line-height: 50px;
 }
@@ -527,7 +527,7 @@ body {
 }
 
 .property-link {
-  font-family: raleway;
+  font-family: Raleway;
   line-height: 21px;
   letter-spacing: 0.2em;
   text-align: center;
@@ -549,7 +549,7 @@ body {
 
 /* Список категорий каталога */
 .categories-link {
-  font-family: raleway;
+  font-family: Raleway;
   line-height: 24px;
   letter-spacing: -0.02em;
   text-decoration: none;
@@ -559,7 +559,7 @@ body {
 
 /* Сервисы */
 .services-item-button {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
@@ -572,7 +572,7 @@ body {
 }
 
 .services-discription-title {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 50px;
   line-height: 50px;
 }
@@ -582,7 +582,7 @@ body {
 }
 
 .delivery-link {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
@@ -595,7 +595,7 @@ body {
 
 /* Информация */
 .info-title {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 50px;
   line-height: 50px;
 }
@@ -617,7 +617,7 @@ body {
 }
 
 .info-link {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
@@ -636,7 +636,7 @@ body {
 
 /* Подписка */
 .subscribe-title {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 50px;
   line-height: 50px;
 }
@@ -667,7 +667,7 @@ body {
 }
 
 .footer-nav-link {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.2em;
@@ -686,7 +686,7 @@ body {
 
 /* Шапка каталога */
 .inner-header-title {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 50px;
   line-height: 50px;
 }
@@ -701,7 +701,7 @@ body {
 
 /* Фильтрация */
 .catalog-filter-title {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.2em;
@@ -720,7 +720,7 @@ body {
 }
 
 .catalog-filter-button {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
@@ -731,7 +731,7 @@ body {
 
 /* Сортировка */
 .sort-title {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.2em;
@@ -761,7 +761,7 @@ body {
 
 /* Загрузить еще */
 .load-more-button {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.2em;
@@ -781,7 +781,7 @@ body {
 
 .pagination-prev,
 .pagination-next {
-  font-family: raleway;
+  font-family: Raleway;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.2em;
