@@ -312,6 +312,15 @@ body {
   background-color: #000000;
 }
 
+.popover::before {
+  position: absolute;
+  top: -20px;
+  left: 145px;
+  content: "";
+  border: 14px solid transparent;
+  border-bottom: 14px solid #000000;
+}
+
 .popover-list {
   display: flex;
   flex-direction: column;
