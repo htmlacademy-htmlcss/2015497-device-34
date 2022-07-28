@@ -504,9 +504,15 @@ body {
 
 .toggler-icon {
   opacity: 0.3;
+  cursor: pointer;
 }
 
-.toggler-icon-ellipse::before {
+.toggler-icon:hover,
+.toggler-icon:active {
+  opacity: 1;
+}
+
+.toggler-icon::before {
   position: absolute;
   top: -19px;
   left: 243px;
@@ -529,7 +535,7 @@ body {
   background-color: #000000;
 }
 
-.toggler-icon::before {
+.toggler-icon-cross::before {
   transform: rotate(90deg);
 }
 
@@ -537,6 +543,7 @@ body {
    min-width: 293px;
    margin-right: 276px;
    white-space: nowrap;
+   cursor: default;
 }
 
 .navigation-sublist {
