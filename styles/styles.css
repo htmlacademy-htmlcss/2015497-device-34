@@ -466,6 +466,7 @@ body {
 
 /* Главная навигация */
 .navigation-list {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   max-width: 1040px;
@@ -546,8 +547,19 @@ body {
    cursor: default;
 }
 
+
+/* Подменю навигации */
 .navigation-sublist {
-  display: none;
+  /* display: none; */
+  position: absolute;
+  top: 16px;
+  left: 0;
+  z-index: -1;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 33px 0 27px 60px;
+  background-color: #FFE17F;
+  list-style-type: none;
 }
 
 .navigation-sublink {
