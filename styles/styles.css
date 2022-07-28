@@ -85,7 +85,7 @@ body {
 .user-menu-wrapper {
   position: relative;
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 
 .header-search-form {
@@ -496,6 +496,41 @@ body {
 .navigation-link:focus {
   outline-offset: 2px;
   outline: 2px solid #AF4FFF;
+}
+
+.catalog-toggler {
+  position: relative;
+}
+
+.toggler-icon {
+  opacity: 0.3;
+}
+
+.toggler-icon-ellipse::before {
+  position: absolute;
+  top: -19px;
+  left: 243px;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid #000000;
+  border-radius: 50%;
+ }
+
+.toggler-icon-cross::after,
+.toggler-icon-cross::before {
+  position: absolute;
+  top: 9px;
+  left: 262px;
+  content: "";
+  width: 16px;
+  height: 2px;
+  background-color: #000000;
+}
+
+.toggler-icon::before {
+  transform: rotate(90deg);
 }
 
 .catalog-toggler-link {
