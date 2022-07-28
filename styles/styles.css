@@ -525,6 +525,10 @@ body {
 
 
 /* Слайдер */
+.index-slider {
+  display: none;
+}
+
 .property-title {
   font-family: Raleway;
   font-size: 50px;
