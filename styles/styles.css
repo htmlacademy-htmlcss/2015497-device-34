@@ -571,6 +571,10 @@ body {
 
 
 /* Сервисы */
+.services-discription-wrapper {
+  display: none;
+}
+
 .services-item-button {
   font-family: Raleway;
   font-size: 18px;
