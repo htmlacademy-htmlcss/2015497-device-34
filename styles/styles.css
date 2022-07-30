@@ -649,12 +649,25 @@ body {
   margin-top: -5px;
 }
 
+.slider-controls {
+  position: absolute;
+  top: 211px;
+  left: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 530px;
+ }
+
 .slider-button {
   width: 20px;
   height: 60px;
   background: url(../images/icons/slider-arrow.svg) no-repeat center transparent;
   border: none;
   cursor: pointer;
+}
+
+.slider-next {
+  transform: rotate(180deg);
 }
 
 .slider-button:hover {
