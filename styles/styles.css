@@ -724,6 +724,51 @@ body {
   outline: 2px solid #AF4FFF;
 }
 
+.slider-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  max-width: 76px;
+  list-style-type: none;
+}
+
+.slider-pagination-item {
+  position: relative;
+}
+
+.slider-pagination-item:not(:nth-child(3n)) {
+  margin-right: 20px;
+}
+
+.slider-pagination-button {
+  position: relative;
+  box-sizing: border-box;
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  background-color: #FFFFFF;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-pagination-button-current {
+  background-color: #000000;
+}
+
+.slider-pagination-button:hover {
+  opacity: 0.6;
+}
+
+.slider-pagination-button:active {
+  opacity: 0.3;
+}
+
+.slider-pagination-button:disabled {
+  opacity: 0.1;
+ }
+
 .property-list {
   margin: 0;
 }
