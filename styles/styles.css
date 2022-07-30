@@ -735,6 +735,8 @@ body {
 
 .slider-pagination-item {
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .slider-pagination-item:not(:nth-child(3n)) {
