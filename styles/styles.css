@@ -693,14 +693,23 @@ body {
   color: #444444;
 }
 
+.property-wrapper {
+  display: flex;
+  justify-content: space-between;
+ }
+
 .property-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 220px;
   font-family: Raleway;
   line-height: 21px;
   letter-spacing: 0.2em;
-  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
+  background: linear-gradient(to bottom, #FFFFFF 40%, #FFE17F 40%, #FFE17F 60%, #FFFFFF 60%);
 }
 
 .property-list {
