@@ -649,6 +649,30 @@ body {
   margin-top: -5px;
 }
 
+.slider-button {
+  width: 20px;
+  height: 60px;
+  background: url(../images/icons/slider-arrow.svg) no-repeat center transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.slider-button:hover {
+  opacity: 0.6;
+}
+
+.slider-button:active {
+  opacity: 0.3;
+}
+
+.slider-button:focus {
+  outline: 2px solid #AF4FFF;
+}
+
+.slider-button:disabled {
+  opacity: 0.1;
+}
+
 .property-title {
   font-family: Raleway;
   font-size: 50px;
