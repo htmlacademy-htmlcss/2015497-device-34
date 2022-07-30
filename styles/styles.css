@@ -198,15 +198,15 @@ body {
   background: url(../images/icons/login-icon.svg) no-repeat;
 }
 
-.login-button:hover {
+.login-link:hover {
   opacity: 0.6;
 }
 
-.login-button:active {
+.login-link:active {
   opacity: 0.3;
 }
 
-.login-button:focus {
+.login-link:focus {
   outline-offset: 2px;
   outline: 2px solid #AF4FFF;
 }
@@ -634,6 +634,19 @@ body {
   width: 1160px;
   height: 300px;
   background-color: #FFE17F;
+}
+
+.slider-bg-number {
+  position: absolute;
+  top: 230px;
+  left: 895px;
+  font-weight: 700;
+  font-size: 180px;
+  color: #FFFFFF;
+}
+
+.slider-image {
+  margin-top: -5px;
 }
 
 .property-title {
