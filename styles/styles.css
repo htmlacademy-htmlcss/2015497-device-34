@@ -712,6 +712,18 @@ body {
   background: linear-gradient(to bottom, #FFFFFF 40%, #FFE17F 40%, #FFE17F 60%, #FFFFFF 60%);
 }
 
+.property-link:hover {
+  background: #FFE17F;
+}
+
+.property-link:active {
+  background: #FFCC33;
+}
+
+.property-link:focus {
+  outline: 2px solid #AF4FFF;
+}
+
 .property-list {
   margin: 0;
 }
