@@ -544,8 +544,8 @@ body {
 }
 
 .catalog-toggler-link {
-   min-width: 293px;
-   margin-right: 276px;
+   min-width: 224px;
+   margin-right: 343px;
    white-space: nowrap;
    cursor: default;
 }
@@ -565,9 +565,9 @@ body {
   list-style-type: none;
 }
 
-/* .navigation-sublist {
+.navigation-sublist {
   display: none;
-} */
+}
 
 .navigation-subitem {
   display: flex;
