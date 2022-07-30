@@ -623,6 +623,19 @@ body {
   display: none;
 }
 
+.index-slider-current {
+  position: relative;
+}
+
+.slider-bg {
+  position: absolute;
+  z-index: -1;
+  top: -156px;
+  width: 1160px;
+  height: 300px;
+  background-color: #FFE17F;
+}
+
 .property-title {
   font-family: Raleway;
   font-size: 50px;
