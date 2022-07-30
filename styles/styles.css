@@ -619,6 +619,7 @@ body {
 
 /* Слайдер */
 .index-slider {
+  position: relative;
   display: none;
 }
 
