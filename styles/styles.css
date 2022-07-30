@@ -112,17 +112,6 @@ body {
   outline: none;
 }
 
-.header-field-wrapper::after {
-  position: absolute;
-  top: -4px;
-  left: -4px;
-  content: "";
-  width: 363px;
-  height: 48px;
-  border: 2px solid #AF4FFF;
-  opacity: 0;
-}
-
 .header-field:focus {
   opacity: 1;
   /* Не срабатывает появление псевдоэл. при фокусе поля */
@@ -621,10 +610,13 @@ body {
 .index-slider {
   position: relative;
   display: none;
+  padding-top: 115px;
 }
 
 .index-slider-current {
   position: relative;
+  display: flex;
+  padding-top: 115px;
 }
 
 .slider-bg {
@@ -646,7 +638,8 @@ body {
 }
 
 .slider-image {
-  margin-top: -5px;
+  margin-top: -120px;
+  margin-right: 40px;
 }
 
 .slider-controls {
@@ -687,12 +680,16 @@ body {
 }
 
 .property-title {
+  margin: 0;
+  margin-bottom: 29px;
   font-family: Raleway;
   font-size: 50px;
   line-height: 50px;
 }
 
 .property-discription {
+  margin: 0;
+  margin-bottom: 51px;
   color: #444444;
 }
 
@@ -704,6 +701,10 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
+}
+
+.property-list {
+  margin: 0;
 }
 
 .property-specification {
