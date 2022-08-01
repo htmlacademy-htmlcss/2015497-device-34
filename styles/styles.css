@@ -936,11 +936,12 @@ body {
 .services-discription-wrapper {
   max-width: 694px;
   padding: 72px 305px 72px 116px;
-}
+ }
 
 .services-discription-wrapper-inactive {
   display: none;
-}
+  padding-right: 278px;
+ }
 
 .services-discription-title {
   margin: 0;
