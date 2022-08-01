@@ -851,8 +851,23 @@ body {
 
 
 /* Сервисы */
-.services-discription-wrapper {
-  display: none;
+.services {
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.services-bg {
+  position: absolute;
+  top: 102px;
+  left: -140px;
+  z-index: -1;
+  width: 1440px;
+  height: 289px;
+  background-color: #F0F0F0;
+}
+
+.services-list {
+
 }
 
 .services-item-button {
@@ -866,6 +881,10 @@ body {
 
 .services-item-button-current {
   color: #FFE17F;
+}
+
+.services-discription-wrapper-disactiv {
+  /* display: none; */
 }
 
 .services-discription-title {
