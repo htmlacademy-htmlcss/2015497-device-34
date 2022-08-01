@@ -836,6 +836,19 @@ body {
   background-color: #FFE17F;
 }
 
+.categories-link:hover .categories-wrapper {
+  background-color: #FFC700;
+}
+
+.categories-link:active {
+  opacity: 0.3;
+}
+
+.categories-link:focus {
+  outline-offset: 2px;
+  outline: 2px solid #AF4FFF;
+}
+
 
 /* Сервисы */
 .services-discription-wrapper {
