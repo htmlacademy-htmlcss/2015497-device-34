@@ -910,10 +910,14 @@ body {
 }
 
 .services-item-button-current {
+  width: 280px;
+  padding-left: 20px;
+  text-align: left;
   color: #FFE17F;
+  background: #000000;
 }
 
-.services-discription-wrapper-disactiv {
+.services-discription-wrapper-inactive {
   /* display: none; */
 }
 
