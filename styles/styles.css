@@ -867,7 +867,16 @@ body {
 }
 
 .services-list {
-
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 287px;
+  min-height: 319px;
+  margin: 0;
+  padding: 65px 0;
+  border-right: 7px solid #000000;
+  list-style-type: none;
 }
 
 .services-item-button {
