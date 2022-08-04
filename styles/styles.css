@@ -806,7 +806,7 @@ body {
 
 
 /* Список категорий каталога */
-.categories-list{
+.categories-list {
   display: flex;
   justify-content: space-between;
   margin: 0;
@@ -927,7 +927,7 @@ body {
   color: rgba(255, 225, 127, 0.3);
 }
 
-.services-item-button-current:focus{
+.services-item-button-current:focus {
   outline-offset: 2px;
   outline: 2px solid #AF4FFF;
 }
@@ -935,18 +935,18 @@ body {
 .services-discription-wrapper {
   max-width: 694px;
   padding: 72px 305px 72px 116px;
- }
+}
 
 .services-discription-wrapper-inactive {
   display: none;
   padding-right: 278px;
- }
+}
 
- .services-discription-wrapper-delivery {
-   background: url(../images/icons/delivery-services-icon.svg) no-repeat 690px 50%;
- }
+.services-discription-wrapper-delivery {
+  background: url(../images/icons/delivery-services-icon.svg) no-repeat 690px 50%;
+}
 
- .services-discription-wrapper-warranty {
+.services-discription-wrapper-warranty {
   background: url(../images/icons/warranty-services-icon.svg) no-repeat 690px 50%;
 }
 
