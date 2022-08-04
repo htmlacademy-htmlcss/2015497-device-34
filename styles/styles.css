@@ -117,7 +117,6 @@ body {
   /* Не срабатывает появление псевдоэл. при фокусе поля */
 }
 
-
 .header-field:disabled,
 .header-field:disabled ~ .search-icon {
   opacity: 0.3;
@@ -942,6 +941,18 @@ body {
   display: none;
   padding-right: 278px;
  }
+
+ .services-discription-wrapper-delivery {
+   background: url(../images/icons/delivery-services-icon.svg) no-repeat 690px 50%;
+ }
+
+ .services-discription-wrapper-warranty {
+  background: url(../images/icons/warranty-services-icon.svg) no-repeat 690px 50%;
+}
+
+.services-discription-wrapper-credit {
+  background: url(../images/icons/credit-services-icon.svg) no-repeat 690px 50%;
+}
 
 .services-discription-title {
   margin: 0;
