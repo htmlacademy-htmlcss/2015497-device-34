@@ -988,6 +988,17 @@ body {
   background: url(../images/icons/special-delivery-icon.svg) no-repeat 50% 50% #FFE17F;
 }
 
+.special-delivery-link-discription {
+  width: 910px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.special-delivery-link-tooltip {
+  width: 125px;
+  min-height: 100px;
+}
+
 /* Информация */
 .info-title {
   font-family: Raleway;
