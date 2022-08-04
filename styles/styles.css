@@ -853,7 +853,7 @@ body {
 .services {
   position: relative;
   display: flex;
-  margin-bottom: 70px;
+  margin-bottom: 142px;
 }
 
 .services-bg {
@@ -967,7 +967,11 @@ body {
   color: #444444;
 }
 
-.delivery-link {
+
+/* Специальная доставка */
+.special-delivery-link {
+  box-sizing: border-box;
+  display: flex;
   font-family: Raleway;
   font-size: 20px;
   line-height: 23px;
@@ -978,6 +982,11 @@ body {
   color: #000000;
 }
 
+.special-delivery-link-icon {
+  width: 125px;
+  min-height: 100px;
+  background: url(../images/icons/special-delivery-icon.svg) no-repeat 50% 50% #FFE17F;
+}
 
 /* Информация */
 .info-title {
