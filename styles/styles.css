@@ -996,8 +996,20 @@ body {
 }
 
 .special-delivery-link-tooltip {
+  position: relative;
   width: 125px;
   min-height: 100px;
+}
+
+.special-delivery-link-tooltip::before {
+  position: absolute;
+  top: 30px;
+  left: 42px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: url(../images/icons/delivery-services-tooltip.svg) no-repeat 50% 50% rgba(220, 220, 220, 0.5);
+  border-radius: 50%;
 }
 
 /* Информация */
