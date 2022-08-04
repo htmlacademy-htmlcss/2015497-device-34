@@ -1012,6 +1012,20 @@ body {
   border-radius: 50%;
 }
 
+.special-delivery-link:hover .special-delivery-link-icon,
+.special-delivery-link:hover .special-delivery-link-tooltip::before {
+  background-color: #FFC700;
+}
+
+.special-delivery-link:active {
+  opacity: 0.3;
+}
+
+.special-delivery-link:focus {
+  outline-offset: 2px;
+  outline: 2px solid #AF4FFF;
+}
+
 /* Информация */
 .info-title {
   font-family: Raleway;
