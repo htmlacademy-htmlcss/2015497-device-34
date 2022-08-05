@@ -117,7 +117,6 @@ body {
   /* Не срабатывает появление псевдоэл. при фокусе поля */
 }
 
-
 .header-field:disabled,
 .header-field:disabled ~ .search-icon {
   opacity: 0.3;
@@ -807,7 +806,7 @@ body {
 
 
 /* Список категорий каталога */
-.categories-list{
+.categories-list {
   display: flex;
   justify-content: space-between;
   margin: 0;
@@ -851,34 +850,134 @@ body {
 
 
 /* Сервисы */
-.services-discription-wrapper {
-  display: none;
+.services {
+  position: relative;
+  margin-bottom: 142px;
+}
+
+.services-bg {
+  position: absolute;
+  top: 102px;
+  z-index: -1;
+  width: 100%;
+  min-height: 289px;
+  background-color: #F0F0F0;
+}
+
+.services-container {
+  display: flex;
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.services-list {
+  box-sizing: border-box;
+  width: 287px;
+  min-height: 319px;
+  margin: 0;
+  padding: 65px 0;
+  border-right: 7px solid #000000;
+  list-style-type: none;
+}
+
+.services-item:not(:last-child) {
+  margin-bottom: 35px;
 }
 
 .services-item-button {
+  width: 160px;
+  min-height: 40px;
+  padding: 0;
   font-family: Raleway;
   font-size: 18px;
   line-height: 21px;
-  text-align: center;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  background: linear-gradient(to bottom, transparent 40%, #FFE17F 40%, #FFE17F 60%, transparent 60%);
+  border: none;
+  cursor: pointer;
+}
+
+.services-item-button:hover {
+  background: #FFE17F;
+}
+
+.services-item-button:active {
+  background: #FFCC33;
+}
+
+.services-item-button:focus {
+  outline: 2px solid #AF4FFF;
+}
+
+.services-item-button:disabled {
+  opacity: 0.3;
 }
 
 .services-item-button-current {
+  width: 280px;
+  padding-left: 20px;
+  text-align: left;
   color: #FFE17F;
+  background: #000000;
+}
+
+.services-item-button-current:hover {
+  color: rgba(255, 225, 127, 0.5);
+  background: #000000;
+}
+
+.services-item-button-current:active {
+  color: rgba(255, 225, 127, 0.3);
+}
+
+.services-item-button-current:focus {
+  outline-offset: 2px;
+  outline: 2px solid #AF4FFF;
+}
+
+.services-discription-wrapper {
+  max-width: 694px;
+  padding: 72px 305px 72px 116px;
+}
+
+.services-discription-wrapper-inactive {
+  display: none;
+  padding-right: 278px;
+}
+
+.services-discription-wrapper-delivery {
+  background: url(../images/icons/delivery-services-icon.svg) no-repeat 690px 50%;
+}
+
+.services-discription-wrapper-warranty {
+  background: url(../images/icons/warranty-services-icon.svg) no-repeat 690px 50%;
+}
+
+.services-discription-wrapper-credit {
+  background: url(../images/icons/credit-services-icon.svg) no-repeat 690px 50%;
 }
 
 .services-discription-title {
+  margin: 0;
+  margin-bottom: 34px;
   font-family: Raleway;
   font-size: 50px;
   line-height: 50px;
 }
 
 .services-discription {
+  margin: 0;
   color: #444444;
 }
 
-.delivery-link {
+
+/* Специальная доставка */
+.special-delivery-link {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  margin-bottom: 70px;
   font-family: Raleway;
   font-size: 20px;
   line-height: 23px;
@@ -887,10 +986,70 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
+  background-color: #F0F0F0;
 }
 
+.special-delivery-link-icon {
+  width: 125px;
+  min-height: 100px;
+  background: url(../images/icons/special-delivery-icon.svg) no-repeat 50% 50% #FFE17F;
+}
+
+.special-delivery-link-discription {
+  width: 910px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.special-delivery-link-tooltip {
+  position: relative;
+  width: 125px;
+  min-height: 100px;
+}
+
+.special-delivery-link-tooltip::before {
+  position: absolute;
+  top: 30px;
+  left: 42px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: rgba(220, 220, 220, 0.5);
+  border-radius: 50%;
+}
+
+.special-delivery-link-tooltip-icon {
+  position: absolute;
+  top: 44px;
+  right: 62px;
+  fill: #000000;
+  opacity: 0.3;
+}
+
+.special-delivery-link:hover .special-delivery-link-icon {
+  background-color: #FFC700;
+}
+
+.special-delivery-link:hover .special-delivery-link-tooltip-icon {
+  opacity: 1;
+}
+
+.special-delivery-link:active {
+  opacity: 0.3;
+}
+
+.special-delivery-link:focus {
+  outline-offset: 2px;
+  outline: 2px solid #AF4FFF;
+}
 
 /* Информация */
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
 .info-title {
   font-family: Raleway;
   font-size: 50px;
@@ -898,6 +1057,7 @@ body {
 }
 
 .info-discription {
+  font-style: normal;
   color: #444444;
 }
 
