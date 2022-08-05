@@ -852,18 +852,22 @@ body {
 /* Сервисы */
 .services {
   position: relative;
-  display: flex;
   margin-bottom: 142px;
 }
 
 .services-bg {
   position: absolute;
   top: 102px;
-  left: -140px;
   z-index: -1;
-  width: 1440px;
+  width: 100%;
   min-height: 289px;
   background-color: #F0F0F0;
+}
+
+.services-container {
+  display: flex;
+  width: 1160px;
+  margin: 0 auto;
 }
 
 .services-list {
@@ -1053,6 +1057,7 @@ body {
 }
 
 .info-discription {
+  font-style: normal;
   color: #444444;
 }
 
