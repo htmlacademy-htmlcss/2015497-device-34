@@ -862,7 +862,7 @@ body {
   left: -140px;
   z-index: -1;
   width: 1440px;
-  height: 289px;
+  min-height: 289px;
   background-color: #F0F0F0;
 }
 
