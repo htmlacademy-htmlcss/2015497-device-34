@@ -1113,13 +1113,11 @@ body {
   margin-bottom: 19px;
  }
 
-.address-link {
-  font-style: normal;
-  color: #444444;
-  text-decoration: none;
-}
-
-.info-link {
+ .info-link {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 270px;
   font-family: Raleway;
   font-size: 18px;
   line-height: 21px;
@@ -1128,6 +1126,13 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
+  background: linear-gradient(to bottom, #FFFFFF 40%, #FFE17F 40%, #FFE17F 60%, #FFFFFF 60%);
+}
+
+.address-link {
+  font-style: normal;
+  color: #444444;
+  text-decoration: none;
 }
 
 .address-title {
