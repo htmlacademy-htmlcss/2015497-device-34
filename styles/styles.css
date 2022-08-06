@@ -977,7 +977,7 @@ body {
   position: relative;
   box-sizing: border-box;
   display: flex;
-  margin-bottom: 70px;
+  margin-bottom: 117px;
   font-family: Raleway;
   font-size: 20px;
   line-height: 23px;
@@ -1051,9 +1051,20 @@ body {
 }
 
 .info-title {
+  position: relative;
+  margin: 0;
   font-family: Raleway;
   font-size: 50px;
   line-height: 50px;
+}
+
+.info-title::before {
+  position: absolute;
+  top: -54px;
+  content: "";
+  width: 84px;
+  height: 7px;
+  background-color: #000000;
 }
 
 .info-discription {
