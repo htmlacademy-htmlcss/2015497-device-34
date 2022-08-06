@@ -473,6 +473,8 @@ body {
 }
 
 .navigation-link {
+  position: relative;
+  z-index: 2;
   display: block;
   font-family: Raleway;
   line-height: 21px;
@@ -549,13 +551,13 @@ body {
 
 /* Подменю навигации */
 .navigation-sublist-open {
+  box-sizing: border-box;
   display: flex;
   position: absolute;
   top: 16px;
   left: -60px;
   z-index: 1;
   width: 1160px;
-  margin: 0 auto;
   padding: 33px 0 27px 60px;
   background-color: #FFE17F;
   list-style-type: none;
