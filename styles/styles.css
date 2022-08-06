@@ -144,7 +144,7 @@ body {
   cursor: pointer;
 }
 
-.search-button:hover:not(:disabled) {
+.search-button:hover {
   background-color: #000000;
   color: #FFFFFF;
 }
@@ -167,6 +167,7 @@ body {
 
 .search-button:disabled {
   color: inherit;
+  background-color: transparent;
   opacity: 0.3;
   cursor: auto;
 }
