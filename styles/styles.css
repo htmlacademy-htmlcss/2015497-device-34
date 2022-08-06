@@ -779,6 +779,17 @@ body {
   opacity: 0.3;
 }
 
+.slider-pagination-button:focus::before {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: 2px solid #AF4FFF;
+  content: "";
+}
+
 .slider-pagination-button:disabled {
   opacity: 0.1;
 }
