@@ -1050,9 +1050,18 @@ body {
   margin-bottom: 70px;
 }
 
+.about {
+  max-width: 520px;
+}
+
+.contacts {
+  max-width: 532px;
+}
+
 .info-title {
   position: relative;
   margin: 0;
+  margin-bottom: 48px;
   font-family: Raleway;
   font-size: 50px;
   line-height: 50px;
@@ -1068,6 +1077,8 @@ body {
 }
 
 .info-discription {
+  margin: 0;
+  margin-bottom: 30px;
   font-style: normal;
   color: #444444;
 }
