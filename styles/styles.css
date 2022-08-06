@@ -1083,11 +1083,35 @@ body {
   color: #444444;
 }
 
+.type-delivery-list {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  padding-left: 34px;
+  list-style-type: none;
+}
+
 .type-delivery-item {
+  position: relative;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: -0.02em;
-}
+ }
+
+ .type-delivery-item::before {
+  position: absolute;
+  top: 6px;
+  left: -33px;
+  width: 8px;
+  height: 8px;
+  content: "";
+  background-color: #FFC700;
+  border-radius: 50%;
+ }
+
+ .type-delivery-item:not(:last-child) {
+  margin-bottom: 19px;
+ }
 
 .address-link {
   font-style: normal;
