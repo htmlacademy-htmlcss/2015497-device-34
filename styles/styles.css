@@ -112,9 +112,15 @@ body {
   outline: none;
 }
 
-.header-field:focus {
-  opacity: 1;
-  /* Не срабатывает появление псевдоэл. при фокусе поля */
+.header-field-wrapper:focus::before {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 363px;
+  height: 48px;
+  border: 2px solid #AF4FFF;
+  content: "";
+  /* Не работает */
 }
 
 .header-field:disabled,
