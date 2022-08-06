@@ -1129,6 +1129,22 @@ body {
   background: linear-gradient(to bottom, #FFFFFF 40%, #FFE17F 40%, #FFE17F 60%, #FFFFFF 60%);
 }
 
+.info-contacts-link {
+  max-width: 259px;
+}
+
+.info-link:hover {
+  background: #FFE17F;
+}
+
+.info-link:active {
+  background: #FFCC33;
+}
+
+.info-link:focus {
+  outline: 2px solid #AF4FFF;
+}
+
 .address-link {
   font-style: normal;
   color: #444444;
