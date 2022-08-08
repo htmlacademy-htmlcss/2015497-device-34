@@ -1221,6 +1221,10 @@ body {
   justify-content: space-between;
 }
 
+.subscribe-form {
+  display: flex;
+}
+
 .field {
   width: 557px;
   padding: 11px 0 14px 16px;
@@ -1242,6 +1246,18 @@ body {
 
 .field:disabled {
   opacity: 0.5;
+}
+
+.subscribe-button {
+  width: 253px;
+  padding: 18px 39px;
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 21px;
+  border: 3px solid #C4C4C4;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .subscribe-free {
