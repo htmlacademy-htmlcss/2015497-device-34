@@ -1300,9 +1300,35 @@ body {
 }
 
 .footer-container {
+  display: flex;
+  justify-content: space-between;
   width: 1160px;
   margin: 0 auto;
   padding: 62px 0 61px;
+}
+
+.footer-logo-address-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 239px;
+}
+
+.footer-logo {
+  max-width: 145px;
+  margin-bottom: 35px;
+}
+
+.footer-logo:hover {
+  opacity: 0.6;
+}
+
+.footer-logo:active {
+  opacity: 0.3;
+}
+
+.footer-logo:focus {
+  outline-offset: 2px;
+  outline: 2px solid #AF4FFF;
 }
 
 .footer-address-text {
