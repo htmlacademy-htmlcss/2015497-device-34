@@ -1229,6 +1229,19 @@ body {
   background-color: transparent;
   border: none;
   border-bottom: 3px solid #C4C4C4;
+  outline: none;
+}
+
+.field:focus {
+  background-color: #DCDCDC;
+}
+
+.field:invalid {
+  border-bottom: #FF3D3D;
+}
+
+.field:disabled {
+  opacity: 0.5;
 }
 
 .subscribe-free {
