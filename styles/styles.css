@@ -1116,9 +1116,9 @@ body {
   font-weight: 700;
   line-height: 20px;
   letter-spacing: -0.02em;
- }
+}
 
- .type-delivery-item::before {
+.type-delivery-item::before {
   position: absolute;
   top: 6px;
   left: -33px;
@@ -1127,13 +1127,13 @@ body {
   content: "";
   background-color: #FFC700;
   border-radius: 50%;
- }
+}
 
- .type-delivery-item:not(:last-child) {
+.type-delivery-item:not(:last-child) {
   margin-bottom: 19px;
- }
+}
 
- .info-link {
+.info-link {
   display: block;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1226,8 +1226,9 @@ body {
 }
 
 .field {
+  box-sizing: border-box;
   width: 557px;
-  padding: 11px 0 14px 16px;
+  padding: 11px 16px 14px 16px;
   font: inherit;
   color: #444444;
   background-color: transparent;
@@ -1263,13 +1264,13 @@ body {
 .subscribe-button:hover {
   color: #FFFFFF;
   background-color: #000000;
-  border: none;
+  border: 3px solid #000000;
 }
 
 .subscribe-button:active {
   color: rgba(225, 225, 225, 0.3);
   background-color: #000000;
-  border: none;
+  border: 3px solid #000000;
 }
 
 .subscribe-button:focus {
