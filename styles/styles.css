@@ -1485,6 +1485,7 @@ body {
  }
 
 .footer-address-phone {
+  margin-bottom: 63px;
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
@@ -1502,6 +1503,27 @@ body {
   outline: 2px solid #AF4FFF;
 }
 
+.footer-site-logo-link {
+   margin-left: 60px;
+   line-height: 12px;
+}
+
+.footer-site-logo {
+  fill: #FFC700;
+}
+
+.footer-site-logo-link:hover .footer-site-logo {
+  fill: #FFFFFF;
+}
+
+.footer-site-logo-link:active .footer-site-logo {
+  opacity: 0.3;
+}
+
+.footer-site-logo-link:focus {
+  outline-offset: 1px;
+  outline: 2px solid #AF4FFF;
+}
 
 /* Шапка каталога */
 .inner-header-title {
