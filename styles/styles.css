@@ -1260,6 +1260,28 @@ body {
   cursor: pointer;
 }
 
+.subscribe-button:hover {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: none;
+}
+
+.subscribe-button:active {
+  color: rgba(225, 225, 225, 0.3);
+  background-color: #000000;
+  border: none;
+}
+
+.subscribe-button:focus {
+  outline-offset: 2px;
+  outline: 2px solid #AF4FFF;
+}
+
+.subscribe-button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
 .subscribe-free {
   color: #444444;
 }
