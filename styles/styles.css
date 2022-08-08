@@ -1370,6 +1370,7 @@ body {
 }
 
 .footer-nav-link {
+  position: relative;
   font-family: Raleway;
   font-size: 18px;
   line-height: 21px;
@@ -1377,6 +1378,28 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #FFFFFF;
+}
+
+.footer-nav-link:hover {
+  color: #FFC700;
+}
+
+.footer-nav-link:hover::after {
+  position: absolute;
+  top: 26px;
+  left: 0;
+  width: 125px;
+  height: 2px;
+  background-color: #FFC700;
+  content: "";
+}
+
+.footer-nav-link:active {
+  opacity: 0.3;
+}
+
+.footer-nav-link:focus {
+  outline: 2px solid #AF4FFF;
 }
 
 .footer-address-phone {
