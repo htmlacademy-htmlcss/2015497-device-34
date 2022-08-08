@@ -1477,11 +1477,29 @@ body {
   content: "";
 }
 
+.footer-site-logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 180px;
+  margin-top: 75px;
+ }
+
 .footer-address-phone {
   font-size: 16px;
   line-height: 20px;
-  text-decoration: none;
   color: #FFFFFF;
+}
+
+.footer-address-phone:hover {
+  color: #FFC700;
+}
+
+.footer-address-phone:active {
+  color: rgba(255, 199, 0, 0.3);
+}
+
+.footer-address-phone:focus {
+  outline: 2px solid #AF4FFF;
 }
 
 
