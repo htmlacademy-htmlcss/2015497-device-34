@@ -1283,7 +1283,13 @@ body {
 }
 
 .subscribe-free {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 160px;
+  margin: 0;
   color: #444444;
+  background: url(../images/icons/subscribe-check-icon.svg) no-repeat 0 50%;
 }
 
 
