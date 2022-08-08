@@ -1299,6 +1299,12 @@ body {
   background-color: #444444;
 }
 
+.footer-container {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 62px 0 61px;
+}
+
 .footer-address-text {
   font-style: normal;
   font-size: 16px;
