@@ -1168,15 +1168,22 @@ body {
 .address-link {
   font-style: normal;
   color: #444444;
-  text-decoration: none;
+
 }
 
 .address-title {
+  margin: 0;
+  margin-bottom: 15px;
   font-weight: 700;
   font-size: 24px;
   color: #444444;
 }
 
+.contacts-opening-house-list {
+  margin-bottom: 40px;
+  padding: 0;
+  list-style-type: none;
+}
 
 /* Подписка */
 .subscribe-title {
