@@ -767,6 +767,7 @@ body {
   border: 2px solid #000000;
   border-radius: 50%;
   cursor: pointer;
+  outline: none;
 }
 
 .slider-pagination-button-current {
@@ -1411,6 +1412,10 @@ body {
   list-style-type: none;
 }
 
+.footer-social-item {
+  position: relative;
+}
+
 .footer-social-item:not(:last-child) {
   margin-right: 15px;
 }
@@ -1421,18 +1426,55 @@ body {
   height: 40px;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 50%;
+  outline: none;
 }
 
-.social-link-tg {
-  background: url(../images/icons/tg-icon.svg) no-repeat 50% 50% rgba(255, 255, 255, 0.3);
+.social-link-tg::after {
+  position: absolute;
+  top: 14px;
+  left: 13px;
+  width: 14px;
+  height: 12px;
+  background-image: url(../images/icons/tg-icon.svg);
+  content: "";
 }
 
-.social-link-youtube {
-  background: url(../images/icons/youtube-icon.svg) no-repeat 50% 50% rgba(255, 255, 255, 0.3);
+.social-link-youtube::after {
+  position: absolute;
+  top: 14px;
+  left: 12px;
+  width: 16px;
+  height: 11px;
+  background-image: url(../images/icons/youtube-icon.svg);
+  content: "";
 }
 
-.social-link-tw {
-  background: url(../images/icons/tw-icon.svg) no-repeat 50% 50% rgba(255, 255, 255, 0.3);
+.social-link-tw::after {
+  position: absolute;
+  top: 13px;
+  left: 14px;
+  width: 15px;
+  height: 15px;
+  background-image: url(../images/icons/tw-icon.svg);
+  content: "";
+}
+
+.social-link:hover {
+  background-color: #FFC700;
+}
+
+.social-link:active::after {
+  opacity: 0.3;
+}
+
+.social-link:focus::before {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: 42px;
+  height: 42px;
+  border: 2px solid #AF4FFF;
+  content: "";
 }
 
 .footer-address-phone {
