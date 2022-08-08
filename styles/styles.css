@@ -1332,10 +1332,21 @@ body {
 }
 
 .footer-address-text {
+  position: relative;
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
+}
+
+.footer-address-text::after {
+  position: absolute;
+  top: 104px;
+  left: 0;
+  width: 80px;
+  height: 7px;
+  background-color: #FFC700;
+  content: "";
 }
 
 .footer-nav-link {
