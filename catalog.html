@@ -12,10 +12,11 @@
   </head>
 
   <body>
-    <div class="page-container">
+    <div class="page-container page-container-inner">
 
       <!-- Шапка -->
-      <header class="page-header">
+      <header class="page-header page-header-inner">
+        <div class="header-bg"></div>
         <nav class="navigation">
           <a class="page-logo">
             <img src="./images/logo-header.svg" width="145" height="36" alt="Логотип сайта.">
@@ -74,21 +75,20 @@
 
           <ul class="navigation-list">
             <li class="navigation-item catalog-toggler">
-              <a class="navigation-link" href="#">Каталог товаров</a>
-              <ul class="navigation-sublist">
-                <li class="navigation-subitem">
+              <a class="navigation-link catalog-toggler-link" href="#">Каталог товаров</a>
+              <div class="toggler-icon">
+                <div class="toggler-icon-cross">
+                  <span class="visually-hidden">Кнопка открытия подменю</span>
+                </div>
+              </div>
+              <ul class="navigation-sublist navigation-sublist-open">
+                <li class="navigation-subitem navigation-subitem-left">
                   <a class="navigation-sublink" href="#">Виртуальная реальность</a>
-                </li>
-                <li class="navigation-subitem">
                   <a class="navigation-sublink" href="#">Моноподы для cелфи</a>
-                </li>
-                <li class="navigation-subitem">
                   <a class="navigation-sublink" href="#">Экшн-камеры</a>
                 </li>
                 <li class="navigation-subitem">
                   <a class="navigation-sublink" href="#">Фитнес-браслеты</a>
-                </li>
-                <li class="navigation-subitem">
                   <a class="navigation-sublink" href="#">Умные часы</a>
                 </li>
                 <li class="navigation-subitem">
@@ -97,10 +97,10 @@
               </ul>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="#">Доставка</a>
+              <a class="navigation-link navigation-delivery-link" href="#">Доставка</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="#">Гарантия</a>
+              <a class="navigation-link navigation-warranty-link" href="#">Гарантия</a>
             </li>
             <li class="navigation-item">
               <a class="navigation-link" href="#">Контакты</a>

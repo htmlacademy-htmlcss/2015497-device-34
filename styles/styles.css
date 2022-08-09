@@ -55,6 +55,10 @@ body {
   width: 1160px;
 }
 
+.page-container-inner {
+  padding-left: 60px;
+}
+
 
 /* Шапка */
 .page-header {
@@ -62,6 +66,21 @@ body {
   padding: 4px 60px 0;
 }
 
+.page-header-inner {
+  position: relative;
+  margin-bottom: 73px;
+  padding-left: 0;
+}
+
+.header-bg {
+  position: absolute;
+  z-index: -1;
+  top: 25px;
+  left: -60px;
+  min-width: 1220px;
+  min-height: 186px;
+  background-color: #FFE17F;
+}
 
 /* Лого */
 .page-logo {
