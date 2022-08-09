@@ -1567,15 +1567,51 @@ body {
 }
 
 .breadcrumbs-item:not(:last-child) {
+  position: relative;
   margin-right: 36px;
 }
 
-.breadcrumbs-link {
+.breadcrumbs-item:not(:last-child):after {
+  position: absolute;
+  left: 145px;
+  top: 13px;
+  width: 4px;
+  height: 7px;
+  background: url(../images/icons/breadcrumbs-arrow.svg) no-repeat;
+  content: "";
+}
+
+.breadcrumbs-item:first-child:after {
+  position: absolute;
+  left: 80px;
+  top: 13px;
+  width: 4px;
+  height: 7px;
+  background: url(../images/icons/breadcrumbs-arrow.svg) no-repeat;
+  content: "";
+}
+
+.breadcrumbs-link,
+.breadcrumbs-link-current {
   font-size: 16px;
   line-height: 19px;
   text-decoration: none;
   color: #000000;
 }
+
+.breadcrumbs-link:hover {
+  opacity: 0.6;
+}
+
+.breadcrumbs-link:active {
+  opacity: 0.3;
+}
+
+.breadcrumbs-link:focus {
+  outline-offset: 2px;
+  outline: 2px solid #AF4FFF;
+}
+
 
 
 /* Фильтрация */
