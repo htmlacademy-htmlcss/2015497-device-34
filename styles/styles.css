@@ -1545,7 +1545,9 @@ body {
 }
 
 /* Шапка каталога */
-.inner-header-title {
+.header-title-inner {
+  margin: 0;
+  margin-bottom: 16px;
   font-family: Raleway;
   font-size: 50px;
   line-height: 50px;
