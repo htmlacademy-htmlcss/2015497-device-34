@@ -99,6 +99,11 @@ body {
   opacity: 0.3;
 }
 
+.page-logo:focus img {
+  outline-offset: 2px;
+  outline: 2px solid #AF4FFF;
+}
+
 
 /* User меню */
 .user-menu-wrapper {
