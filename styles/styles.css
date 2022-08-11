@@ -1627,6 +1627,17 @@ body {
 }
 
 
+/* Каталог продукции */
+.catalog-products {
+  min-width: 1160px;
+  background-color: #F0F0F0;
+}
+
+.catalog-products-container {
+  width: 1160px;
+  margin: 0 auto;
+  padding-left: 60px;
+}
 
 /* Фильтрация */
 .catalog-filter-title {
