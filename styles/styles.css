@@ -1647,7 +1647,7 @@ body {
 }
 
 .catalog-filter-title {
-  margin: 25px 0 60px;
+  margin: 25px 0 72px;
   font-family: Raleway;
   font-size: 16px;
   line-height: 19px;
@@ -1655,10 +1655,30 @@ body {
   text-transform: uppercase;
 }
 
+.catalog-filter-group {
+  margin: 0;
+  margin-bottom: 35px;
+  padding: 0;
+  width: 200px;
+  border: none;
+}
+
 .catalog-filter-group-title {
+  position: relative;
+  padding: 0;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: -0.02em;
+}
+
+.catalog-filter-group-title::before {
+  position: absolute;
+  top: -12px;
+  left: -1px;
+  width: 200px;
+  height: 2px;
+  background-color: #000000;
+  content: "";
 }
 
 .control-label {
