@@ -1634,13 +1634,20 @@ body {
 }
 
 .catalog-products-container {
+  display: flex;
   width: 1160px;
   margin: 0 auto;
   padding-left: 60px;
 }
 
 /* Фильтрация */
+.catalog-filter {
+  width: 320px;
+  padding-right: 40px;
+}
+
 .catalog-filter-title {
+  margin: 25px 0 60px;
   font-family: Raleway;
   font-size: 16px;
   line-height: 19px;
