@@ -1212,6 +1212,7 @@ body {
 
 /* Подписка */
 .subscribe {
+  min-width: 1160px;
   background-color: #F0F0F0;
 }
 
@@ -1321,6 +1322,7 @@ body {
 
 /* Футер */
 .page-footer {
+  min-width: 1160px;
   background-color: #444444;
 }
 
