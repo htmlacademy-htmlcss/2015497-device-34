@@ -136,7 +136,7 @@ body {
   outline: none;
 }
 
-.header-field-wrapper:focus::before {
+.header-field-wrapper:focus-within::before {
   position: absolute;
   top: -4px;
   left: -4px;
@@ -144,7 +144,6 @@ body {
   height: 48px;
   border: 2px solid #AF4FFF;
   content: "";
-  /* Не работает */
 }
 
 .header-field:disabled,
@@ -166,6 +165,7 @@ body {
   border-radius: 0 50px 50px 0;
   background-color: transparent;
   cursor: pointer;
+  outline: none;
 }
 
 .search-button:hover {
