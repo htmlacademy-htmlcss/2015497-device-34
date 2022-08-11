@@ -569,6 +569,20 @@ body {
   cursor: default;
 }
 
+.catalog-toggler-link:focus {
+  outline: none;
+}
+
+.catalog-toggler-link:focus::before {
+  position: absolute;
+  top: -24px;
+  left: -2px;
+  width: 298px;
+  height: 59px;
+  border: 2px solid #AF4FFF;
+  content: "";
+}
+
 
 /* Подменю навигации */
 .navigation-sublist {
