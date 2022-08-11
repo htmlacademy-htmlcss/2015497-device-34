@@ -528,41 +528,38 @@ body {
 .toggler-icon {
   position: absolute;
   z-index: 2;
-  top: 0;
-  opacity: 0.3;
-  cursor: pointer;
-}
-
-.toggler-icon:hover,
-.toggler-icon:active {
-  opacity: 1;
-}
-
-.toggler-icon::before {
-  position: absolute;
   top: -19px;
   left: 243px;
-  content: "";
   width: 50px;
   height: 50px;
   background-color: transparent;
-  border: 2px solid #000000;
+  border: 2px solid rgba(0, 0, 0, 0.3);
   border-radius: 50%;
+  cursor: pointer;
 }
 
-.toggler-icon-cross::after,
-.toggler-icon-cross::before {
-  position: absolute;
-  top: 9px;
-  left: 262px;
+.toggler-icon::before {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: url(../images/icons/togler-plus.svg) no-repeat 50%;
   content: "";
-  width: 16px;
-  height: 2px;
-  background-color: #000000;
 }
 
-.toggler-icon-cross::before {
-  transform: rotate(90deg);
+.toggler-icon:hover::before {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: url(../images/icons/togler-minus.svg) no-repeat 50%;
+  content: "";
+}
+
+.toggler-icon:hover {
+  border: 2px solid #000000;
+}
+
+.toggler-icon:hover ~ .navigation-sublist {
+  display: flex;
 }
 
 .catalog-toggler-link {
@@ -574,9 +571,9 @@ body {
 
 
 /* Подменю навигации */
-.navigation-sublist-open {
+.navigation-sublist {
+  display: none;
   box-sizing: border-box;
-  display: flex;
   position: absolute;
   top: 16px;
   left: -60px;
@@ -585,10 +582,6 @@ body {
   padding: 33px 0 27px 60px;
   background-color: #FFE17F;
   list-style-type: none;
-}
-
-.navigation-sublist {
-  display: none;
 }
 
 .navigation-subitem {
