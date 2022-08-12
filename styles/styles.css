@@ -1807,6 +1807,20 @@ body {
   content: "";
 }
 
+.control-input[type="checkbox"]:checked + .control-mark::after {
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  width: 10px;
+  height: 10px;
+  background: url(../images/icons/checkbox-icon.svg) no-repeat;
+  content: "";
+}
+
+.control-input[type="checkbox"]:checked + .control-mark-checkbox {
+  border: 2px solid #000000;
+}
+
 .control-mark-checkbox {
   position: absolute;
   top: 4px;
