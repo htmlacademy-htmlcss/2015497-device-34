@@ -1657,7 +1657,7 @@ body {
 
 .catalog-filter-group {
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 47px;
   padding: 0;
   width: 200px;
   border: none;
@@ -1675,7 +1675,7 @@ body {
 .catalog-filter-group-title::before {
   position: absolute;
   top: -12px;
-  left: -1px;
+  left: 0;
   width: 200px;
   height: 2px;
   background-color: #000000;
@@ -1691,7 +1691,7 @@ body {
 .range-scale {
   position: relative;
   height: 2px;
-  margin-bottom: 11px;
+  margin-bottom: 15px;
   background-color: #DCDCDC;
 }
 
@@ -1715,6 +1715,7 @@ body {
 
 .toggle-min {
   top: -8px;
+  left: -8px;
 }
 
 .toggle-max {
@@ -1739,6 +1740,29 @@ body {
   border: 2px solid #AF4FFF;
   content: "";
 }
+
+.range-wrapper-inputs {
+  display: flex;
+  margin-left: -8px;
+}
+
+.range-input:not(:last-of-type) {
+  margin-right: 13px;
+}
+
+.range-input {
+  width: 75px;
+  padding: 0;
+  font: inherit;
+  font-size: 15px;
+  line-height: 18px;
+  background-color: transparent;
+  border: none;
+ }
+
+ .range-input:focus {
+  outline: 2px solid #AF4FFF;
+ }
 
 .control-label {
   font-size: 16px;
