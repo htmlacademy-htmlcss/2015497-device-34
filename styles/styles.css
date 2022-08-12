@@ -1682,6 +1682,12 @@ body {
   content: "";
 }
 
+
+/* Range bar */
+.range {
+  padding-top: 9px;
+}
+
 .control-label {
   font-size: 16px;
   line-height: 19px;
