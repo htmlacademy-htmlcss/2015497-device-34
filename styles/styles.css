@@ -1765,7 +1765,7 @@ body {
  }
 
 
- /* Блок чекбоксов */
+ /* Группа чекбоксов и радио */
 .catalog-filter-list {
   margin: 0;
   padding: 0;
@@ -1782,14 +1782,47 @@ body {
   padding-left: 36px;
 }
 
+.control-input:hover + .control-mark,
+.control-input:hover + .control-mark + .control-label {
+  opacity: 0.6;
+}
+
+.control-input:active + .control-mark,
+.control-input:active + .control-mark + .control-label {
+  opacity: 0.3;
+}
+
+.control-input:disabled + .control-mark,
+.control-input:disabled + .control-mark + .control-label {
+  opacity: 0.1;
+}
+
+.control-input:focus + .control-mark::before {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #AF4FFF;
+  content: "";
+}
+
 .control-mark-checkbox {
   position: absolute;
-  top: 2px;
+  top: 4px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #CCCCCC;
+  border-radius: 3px;
+}
+
+.control-mark-radio {
+  position: absolute;
+  top: 4px;
   left: 0;
   width: 20px;
   height: 20px;
-  border: 2px solid #CCCCCC;
-  border-radius: 3px;
 }
 
 .control-label {
