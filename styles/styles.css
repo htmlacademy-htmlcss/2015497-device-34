@@ -1764,6 +1764,8 @@ body {
   outline: 2px solid #AF4FFF;
  }
 
+
+ /* Блок чекбоксов */
 .control-label {
   font-size: 16px;
   line-height: 19px;
