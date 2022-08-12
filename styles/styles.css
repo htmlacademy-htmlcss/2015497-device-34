@@ -1772,7 +1772,7 @@ body {
   list-style-type: none;
 }
 
-.catalog-filter-item {
+.catalog-filter-item:not(:last-child) {
   margin-bottom: 18px;
 }
 
@@ -1821,7 +1821,7 @@ body {
   border: 2px solid #000000;
 }
 
-.control-mark-checkbox {
+.control-mark {
   position: absolute;
   top: 4px;
   left: 0;
@@ -1832,11 +1832,22 @@ body {
 }
 
 .control-mark-radio {
+  border-radius: 50%;
+}
+
+.control-input[type="radio"]:checked + .control-mark::after {
   position: absolute;
-  top: 4px;
-  left: 0;
-  width: 20px;
-  height: 20px;
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  background-color: #000000;
+  border-radius: 50px;
+  content: "";
+}
+
+.control-input[type="radio"]:checked + .control-mark-radio {
+  border: 2px solid #000000;
 }
 
 .control-label {
