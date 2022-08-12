@@ -1688,6 +1688,58 @@ body {
   padding-top: 9px;
 }
 
+.range-scale {
+  position: relative;
+  height: 2px;
+  margin-bottom: 11px;
+  background-color: #DCDCDC;
+}
+
+.range-bar {
+  position: absolute;
+  height: 2px;
+  background-color: #000000;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  background-color: #EBEBEB;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+
+.toggle-min {
+  top: -8px;
+}
+
+.toggle-max {
+  top: -8px;
+  left: 110px;
+}
+
+.range-toggle:hover {
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.range-toggle:active {
+  background-color: #000000;
+}
+
+.range-toggle:focus::before {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #AF4FFF;
+  content: "";
+}
+
 .control-label {
   font-size: 16px;
   line-height: 19px;
