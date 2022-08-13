@@ -1762,14 +1762,14 @@ body {
   line-height: 18px;
   background-color: transparent;
   border: none;
- }
+}
 
- .range-input:focus {
+.range-input:focus {
   outline: 2px solid #AF4FFF;
- }
+}
 
 
- /* Группа чекбоксов и радио */
+/* Группа чекбоксов и радио */
 .catalog-filter-list {
   margin: 0;
   padding: 0;
@@ -1937,6 +1937,7 @@ body {
 }
 
 .select-control:focus {
+  outline-offset: 2px;
   outline: 2px solid #AF4FFF;
 }
 
