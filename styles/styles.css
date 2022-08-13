@@ -1663,6 +1663,10 @@ body {
   border: none;
 }
 
+.catalog-filter-group:last-of-type {
+  margin-bottom: 45px;
+}
+
 .catalog-filter-group-title {
   position: relative;
   margin-bottom: 20px;
@@ -1855,13 +1859,37 @@ body {
   line-height: 19px;
 }
 
+
+/* Кнопка формы */
 .catalog-filter-button {
+  width: 220px;
+  padding: 10px 5px;
   font-family: Raleway;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  background: linear-gradient(to bottom, transparent 40%, #FFE17F 40%, #FFE17F 60%, transparent 60%);
+  border: none;
+  cursor: pointer;
+}
+
+.catalog-filter-button:hover {
+  background: #FFE17F;
+}
+
+.catalog-filter-button:active {
+  background: #FFCC33;
+}
+
+.catalog-filter-button:focus {
+  outline: 2px solid #AF4FFF;
+}
+
+.catalog-filter-button:disabled {
+  opacity: 0.3;
+  cursor: default;
 }
 
 
