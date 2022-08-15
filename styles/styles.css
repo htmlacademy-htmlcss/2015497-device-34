@@ -1964,7 +1964,7 @@ body {
 
 .sort-button-up::before {
   position: absolute;
-  top: 5px;
+  top: 4px;
   left: 9px;
   width: 0;
   height: 0;
@@ -1973,15 +1973,36 @@ body {
   content: "";
 }
 
-.sort-button-down::before {
+.sort-button-down::after {
   position: absolute;
-  top: 12px;
+  top: 11px;
   left: 9px;
   width: 0;
   height: 0;
   border: 7px solid transparent;
   border-top: 11px solid rgba(0, 0, 0, 0.2);
   content: "";
+}
+
+.sort-button:hover::before {
+  border-bottom: 11px solid rgba(0, 0, 0, 0.5);
+}
+
+.sort-button:hover::after {
+  border-top: 11px solid rgba(0, 0, 0, 0.5);
+}
+
+.sort-button:active::before {
+  border-bottom: 11px solid #000000;
+}
+
+.sort-button:active::after {
+  border-top: 11px solid #000000;
+}
+
+.sort-button:focus {
+  outline-offset: -2px;
+  outline: 2px solid #AF4FFF;
 }
 
 /* Список товаров */
