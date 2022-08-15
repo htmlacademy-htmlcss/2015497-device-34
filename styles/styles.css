@@ -77,7 +77,7 @@ body {
   z-index: -1;
   top: 25px;
   left: -60px;
-  min-width: 1220px;
+  min-width: 1160px;
   min-height: 186px;
   background-color: #FFE17F;
 }
@@ -1647,7 +1647,7 @@ body {
 }
 
 .catalog-filter-title {
-  margin: 25px 0 72px;
+  margin: 25px 0 83px;
   font-family: "Raleway";
   font-size: 16px;
   line-height: 19px;
@@ -1777,7 +1777,7 @@ body {
 }
 
 .catalog-filter-item:not(:last-child) {
-  margin-bottom: 18px;
+  margin-bottom: 5px;
 }
 
 .control {
@@ -1899,7 +1899,7 @@ body {
 /* Сортировка */
 .sort-container {
   display: flex;
-  padding: 20px 0 40px 20px;
+  padding: 20px 40px 40px;
 }
 
 .sort-title {
@@ -1950,7 +1950,6 @@ body {
 .sort-button-wrapper {
   display: flex;
   width: 60px;
-  margin-left: auto;
  }
 
 .sort-button {
@@ -2006,6 +2005,35 @@ body {
 }
 
 /* Список товаров */
+.product-card-wrapper {
+  padding: 70px 40px 78px 40px;
+  background-color: #FFFFFF;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 44px 40px;
+  margin: 0;
+  margin-bottom: 44px;
+  padding: 0;
+  list-style-type: none;
+ }
+
+ .product-card-image-link {
+  display: block;
+  margin-bottom: 32px;
+ }
+
+ .product-card-image {
+  display: block;
+ }
+
+ .product-card-content {
+  display: flex;
+  justify-content: space-between;
+ }
+
 .product-card-content-link {
   font-size: 18px;
   font-weight: 700;
@@ -2013,6 +2041,11 @@ body {
   letter-spacing: -0.02em;
   text-decoration: none;
   color: #000000;
+}
+
+.product-card-content-title {
+  max-width: 236px;
+  margin: 0;
 }
 
 .product-card-price {
