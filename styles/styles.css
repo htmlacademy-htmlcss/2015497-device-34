@@ -1899,7 +1899,7 @@ body {
 /* Сортировка */
 .sort-container {
   display: flex;
-  padding: 20px 40px;
+  padding: 20px 0 40px 20px;
 }
 
 .sort-title {
@@ -1950,14 +1950,38 @@ body {
 .sort-button-wrapper {
   display: flex;
   width: 60px;
-  margin-right: auto;
-}
+  margin-left: auto;
+ }
 
 .sort-button {
+  position: relative;
   width: 30px;
+  height: 30px;
   padding: 0;
   border: none;
   cursor: pointer;
+}
+
+.sort-button-up::before {
+  position: absolute;
+  top: 5px;
+  left: 9px;
+  width: 0;
+  height: 0;
+  border: 7px solid transparent;
+  border-bottom: 11px solid rgba(0, 0, 0, 0.2);
+  content: "";
+}
+
+.sort-button-down::before {
+  position: absolute;
+  top: 12px;
+  left: 9px;
+  width: 0;
+  height: 0;
+  border: 7px solid transparent;
+  border-top: 11px solid rgba(0, 0, 0, 0.2);
+  content: "";
 }
 
 /* Список товаров */
