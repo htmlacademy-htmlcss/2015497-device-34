@@ -2092,7 +2092,20 @@ body {
 }
 
 /* Пагинация */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 71px;
+  margin: 0;
+  margin-bottom: 78px;
+  padding: 0;
+  background-color: #EBEBEB;
+  list-style-type: none;
+}
+
 .pagination-link {
+  display: block;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
@@ -2100,8 +2113,22 @@ body {
   color: rgba(68, 68, 68, 0.3);
 }
 
+.pagination-prev {
+  width: 128px;
+  padding-left: 25px;
+ }
+
+ .pagination-next {
+  justify-content: end;
+  width: 141px;
+  padding-right: 25px;
+ }
+
 .pagination-prev,
 .pagination-next {
+  display: flex;
+  align-items: center;
+  min-height: 71px;
   font-family: "Raleway";
   font-size: 18px;
   line-height: 21px;
