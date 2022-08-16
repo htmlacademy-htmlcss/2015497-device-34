@@ -2056,14 +2056,40 @@ body {
 
 /* Загрузить еще */
 .load-more-button {
+  width: 100%;
+  min-height: 55px;
+  margin: 0;
+  margin-bottom: 44px;
+  padding: 0;
   font-family: "Raleway";
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   text-align: center;
+  background-color: transparent;
+  border: 3px solid #E5E5E5;
+  cursor: pointer;
 }
 
+.load-more-button:hover {
+  border: 3px solid #000000;
+}
+
+.load-more-button:active {
+  color: rgba(0, 0, 0, 0.3);
+  border: 3px solid #E5E5E5;
+}
+
+.load-more-button:focus {
+  outline-offset: 2px;
+  outline: 2px solid #AF4FFF;
+}
+
+.load-more-button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
 
 /* Пагинация */
 .pagination-link {
