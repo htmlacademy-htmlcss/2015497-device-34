@@ -2026,6 +2026,16 @@ body {
   position: relative;
  }
 
+ .product-card a:focus::after {
+  position: absolute;
+  top: 0;
+  left: -2px;
+  width: 362px;
+  height: 454px;
+  border: 2px solid #AF4FFF;
+  content: "";
+ }
+
  .product-card-new::before {
   display: none;
   position: absolute;
