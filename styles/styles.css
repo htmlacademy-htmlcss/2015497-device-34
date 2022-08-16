@@ -2164,3 +2164,19 @@ body {
   width: 40px;
   min-height: 40px;
 }
+
+.pagination-link-number-current {
+  opacity: 0.6;
+}
+
+.pagination-link-number:hover:not(span) {
+  color: #444444;
+}
+
+.pagination-link-number:active {
+  opacity: 0.1;
+}
+
+.pagination-link-number:focus {
+  outline: 2px solid #AF4FFF;
+}
