@@ -56,6 +56,7 @@ body {
 }
 
 .page-container-inner {
+  flex-grow: 0;
   padding-left: 60px;
 }
 
@@ -1329,6 +1330,7 @@ body {
 
 /* Футер */
 .page-footer {
+  flex-grow: 1;
   min-width: 1160px;
   background-color: #444444;
 }
@@ -2018,6 +2020,24 @@ body {
   margin-bottom: 44px;
   padding: 0;
   list-style-type: none;
+ }
+
+ .product-card {
+  position: relative;
+ }
+
+ .product-card-new::before {
+  display: none;
+  position: absolute;
+  top: 27px;
+  right: 27px;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  background: url("../images/icons/new-product-stcker.svg") no-repeat 50%;
+  border: 2px solid rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  content: "";
  }
 
  .product-card-image-link {
