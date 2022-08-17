@@ -2327,7 +2327,7 @@ body {
 }
 
 .modal-close-button:focus {
- outline: 2px solid #AF4FFF;
+  outline: 2px solid #AF4FFF;
 }
 
 .modal-form {
