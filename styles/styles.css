@@ -2480,5 +2480,16 @@ body {
 }
 
 .tooltip-text {
+  position: absolute;
+  top: 36px;
+  right: -33px;
   display: none;
+  box-sizing: border-box;
+  width: 200px;
+  padding: 19px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #000000;
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
 }
