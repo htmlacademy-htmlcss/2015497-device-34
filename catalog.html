@@ -405,6 +405,62 @@
       </div>
     </footer>
 
+
+    <!-- Модальное окно -->
+    <div class="modal-container">
+      <div class="modal">
+        <section class="modal-content">
+          <div class="modal-title-wrapper">
+            <h2 class="modal-title">Доставка под заказ</h2>
+            <button class="modal-close-button" type="button">
+              <span class="visually-hidden">Закрыть</span>
+            </button>
+          </div>
+          <form class="modal-form" action="https://echo.htmlacademy.ru/" method="post">
+            <div class="modal-group-field-wrapper">
+              <div class="modal-field-wrapper">
+                <label class="modal-label" for="login-field">Ваше имя:</label>
+                <input class="modal-field modal-field-login" type="text" name="login" placeholder="Введите имя"
+                  id="login-field">
+                <span class="modal-field-notification">Добавьте имя</span>
+              </div>
+              <div class="modal-field-wrapper">
+                <label class="modal-label" for="email-field">Ваш e-mail:</label>
+                <input class="modal-field modal-field-email" type="email" name="email" placeholder="почта"
+                  id="email-field">
+                <span class="modal-field-notification modal-field-email-notification">Забавный у вас адрес</span>
+              </div>
+            </div>
+            <div class="modal-group-field-wrapper">
+              <div class="modal-field-wrapper">
+                <label class="modal-label" for="delivery-info-field">Что нужно привезти:</label>
+                <input class="modal-field modal-field-delivery-info" type="text" name="delivery-info"
+                  placeholder="В свободной форме" id="delivery-info-field">
+              </div>
+              <div class="modal-field-wrapper">
+                <label class="modal-label" for="modal-counter">Количество:</label>
+
+                <!-- Тултип -->
+                <span class="modal-tootip">
+                  <button class="tooltip-toogle" type="button" aria-labelledby="tooltip-label"></button>
+                  <span class="tooltip-text" role="tooltip" id="tooltip-label">Постараемся найти, сколько нужно.
+                    Привезём сколько получится по требованиям<br>
+                    к провозу багажа.</span>
+                </span>
+
+                <div class="modal-counter-wrapper">
+                  <button class="modal-counter modal-counter-minus" type="button"></button>
+                  <input class="modal-field modal-field-counter" type="text" name="counter" placeholder="1"
+                    id="modal-counter">
+                  <button class="modal-counter modal-counter-plus" type="button"></button>
+                </div>
+              </div>
+            </div>
+            <button class="modal-form-button" type="submit">Отправить</button>
+          </form>
+        </section>
+      </div>
+    </div>
   </body>
 
 </html>

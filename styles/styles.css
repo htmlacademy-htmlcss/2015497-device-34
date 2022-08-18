@@ -2354,6 +2354,7 @@ body {
 }
 
 .modal-counter-wrapper {
+  position: relative;
   display: flex;
 }
 
@@ -2432,14 +2433,14 @@ body {
 }
 
 .modal-field:invalid:not(.modal-field-counter) + .modal-field-notification {
-  color:  #FF3D3D;
+  color: #FF3D3D;
 }
 
 .modal-field:disabled {
   opacity: 0.3;
 }
 
-/* .modal-counter-minus::after {
+.modal-field-counter:invalid .modal-counter-wrapper::before {
   position: absolute;
   z-index: 1;
   top: 0;
@@ -2448,7 +2449,7 @@ body {
   height: 60px;
   border: 2px solid #FF3D3D;
   content: "";
-} */
+}
 
 .modal-counter {
   position: relative;
