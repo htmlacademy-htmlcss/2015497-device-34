@@ -2413,8 +2413,28 @@ body {
 }
 
 .modal-counter {
+  position: relative;
   width: 60px;
   padding: 0;
   border: none;
   cursor: pointer;
+}
+
+.modal-counter::before {
+  position: absolute;
+  left: 22px;
+  width: 16px;
+  height: 2px;
+  background-color: #000000;
+  content: "";
+}
+
+.modal-counter-plus::after {
+  position: absolute;
+  left: 22px;
+  width: 16px;
+  height: 2px;
+  background-color: #000000;
+  transform: rotate(90deg);
+  content: "";
 }
