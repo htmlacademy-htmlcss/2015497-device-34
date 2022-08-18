@@ -2345,6 +2345,10 @@ body {
   flex-direction: column;
 }
 
+.modal-field-wrapper:last-child {
+  position: relative;
+}
+
 .modal-field-wrapper:not(:last-child) {
   margin-right: 40px;
 }
@@ -2450,4 +2454,31 @@ body {
   background: linear-gradient(to bottom, transparent 40%, #FFC700 40%, #FFC700 60%, transparent 60%);
   border: none;
   cursor: pointer;
+}
+
+
+/* Тултип */
+.modal-tootip {
+  position: absolute;
+  z-index: 1;
+  top: -2px;
+  left: 121px;
+  width: 26px;
+  height: 26px;
+}
+
+.tooltip-toogle {
+  display: block;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  background-color: #FFE17F;
+  background: url("../images/icons/tooltip-icon.svg") no-repeat top -1px center;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.tooltip-text {
+  display: none;
 }
