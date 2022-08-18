@@ -2411,3 +2411,10 @@ body {
 .modal-field-counter::placeholder {
   color: #000000;
 }
+
+.modal-counter {
+  width: 60px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
