@@ -2349,6 +2349,10 @@ body {
   margin-right: 40px;
 }
 
+.modal-counter-wrapper {
+  display: flex;
+}
+
 .modal-label {
   margin-bottom: 14px;
   font-weight: 700;
@@ -2358,7 +2362,7 @@ body {
 
 .modal-field {
   box-sizing: border-box;
-  min-width: 360px;
+  width: 360px;
   padding: 20px 40px 20px 20px;
   font-family: "Rubik", sans-serif;
   font-size: 16px;
@@ -2400,7 +2404,8 @@ body {
 
 .modal-field-counter {
   width: 60px;
-  padding: 20px;
+  padding: 20px 10px;
+  text-align: center;
 }
 
 .modal-field-counter::placeholder {
