@@ -2458,6 +2458,23 @@ body {
   outline: none;
 }
 
+.modal-form-button:hover {
+  background: #FFE17F;
+}
+
+.modal-form-button:active {
+  background: #FFCC33;
+}
+
+.modal-form-button:focus {
+  outline: 2px solid #AF4FFF;
+}
+
+.modal-form-button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
 
 /* Тултип */
 .modal-tootip {
