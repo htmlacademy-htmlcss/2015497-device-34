@@ -2372,12 +2372,26 @@ body {
   color: rgba(0, 0, 0, 0.3);
 }
 
+.modal-field-login {
+  background: url("../images/icons/modal-name-icon.svg") no-repeat top 50% right 21px #F0F0F0;
+}
+
 .modal-field-email {
+  background: url("../images/icons/modal-email-icon.svg") no-repeat top 50% right 21px #F0F0F0;
   border: 2px solid #FF3D3D;
 }
 
 .modal-field-email::placeholder {
   color: #000000;
+}
+
+.modal-field-notification {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.modal-field-email-notification {
+  color: #FF3D3D;
 }
 
 .modal-field-delivery-info {
