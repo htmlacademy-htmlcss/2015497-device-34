@@ -2438,3 +2438,16 @@ body {
   transform: rotate(90deg);
   content: "";
 }
+
+.modal-form-button {
+  width: 200px;
+  padding: 10px 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  background: linear-gradient(to bottom, transparent 40%, #FFC700 40%, #FFC700 60%, transparent 60%);
+  border: none;
+  cursor: pointer;
+}
