@@ -2444,6 +2444,29 @@ body {
   content: "";
 }
 
+.modal-counter:hover {
+  background-color: #EBEBEB;
+}
+
+.modal-counter:hover::before,
+.modal-counter:hover::after {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-counter:active::before,
+.modal-counter:active::after {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal-counter:focus {
+  outline: 2px solid #AF4FFF;
+}
+
+.modal-counter:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
 .modal-form-button {
   width: 200px;
   padding: 10px 0;
