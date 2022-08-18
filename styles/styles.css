@@ -2422,6 +2422,7 @@ body {
   padding: 0;
   border: none;
   cursor: pointer;
+  outline: none;
 }
 
 .modal-counter::before {
@@ -2454,6 +2455,7 @@ body {
   background: linear-gradient(to bottom, transparent 40%, #FFC700 40%, #FFC700 60%, transparent 60%);
   border: none;
   cursor: pointer;
+  outline: none;
 }
 
 
@@ -2477,6 +2479,7 @@ body {
   border-radius: 50%;
   border: none;
   cursor: pointer;
+  outline: none;
 }
 
 .tooltip-text {
@@ -2492,4 +2495,20 @@ body {
   color: #FFFFFF;
   background-color: #000000;
   box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.tooltip-toogle:hover + .tooltip-text,
+.tooltip-toogle:focus + .tooltip-text {
+  display: block;
+}
+
+.tooltip-text::before {
+  position: absolute;
+  top: -21px;
+  right: 31px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom: 14px solid #000000;
+  content: "";
 }
