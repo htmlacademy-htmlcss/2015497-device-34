@@ -339,6 +339,10 @@ body {
   outline: 2px solid #AF4FFF;
 }
 
+.cart-button:focus + .popover {
+  display: block;
+}
+
 
 /* Поповер */
 .popover-open {
@@ -350,7 +354,7 @@ body {
   top: 40px;
   right: -80px;
   display: none;
-  z-index: 1;
+  z-index: 3;
   width: 320px;
   min-height: 301px;
   background-color: #000000;
@@ -605,6 +609,10 @@ body {
   height: 59px;
   border: 2px solid #AF4FFF;
   content: "";
+}
+
+.catalog-toggler:focus-within .navigation-sublist {
+  display: flex;
 }
 
 
