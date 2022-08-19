@@ -668,13 +668,6 @@ body {
   margin-right: 30px;
 }
 
-.navigation-sublink {
-  font-size: 16px;
-  line-height: 18px;
-  text-decoration: none;
-  color: #000000;
-}
-
 .navigation-sublink:not(:last-child) {
   margin-bottom: 18px;
 }
@@ -693,6 +686,40 @@ body {
 
 .navigation-sublink:focus {
   outline: 2px solid #AF4FFF;
+}
+
+.navigation-sublink-current,
+.navigation-sublink-current::before,
+.navigation-sublink-current::after {
+  display: none;
+}
+
+.navigation-sublink-current::before {
+  position: absolute;
+  right: 3px;
+  bottom: -4px;
+  width: 100%;
+  border-bottom: 1px solid #000000;
+  content: "";
+}
+
+.navigation-sublink-current::after {
+  position: absolute;
+  top: -3px;
+  left: -5px;
+  width: 222px;
+  height: 27px;
+  border: 2px solid #AF4FFF;
+  content: "";
+}
+
+.navigation-sublink {
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #000000;
 }
 
 .navigation-delivery-link {
