@@ -203,7 +203,7 @@ body {
   display: flex;
   align-items: center;
   width: 231px;
-  margin-right: 26px;
+  margin-right: 29px;
   padding-left: 27px;
   text-decoration: none;
   color: #000000;
@@ -232,11 +232,34 @@ body {
   outline: 2px solid #AF4FFF;
 }
 
+.login-link-inner {
+  width: 146px;
+}
+
+.unlogin-button {
+  display: flex;
+  align-items: center;
+  width: 57px;
+  margin-right: 25px;
+  padding: 0;
+  font: inherit;
+  color: rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.unlogin-button:focus {
+  outline-offset: 2px;
+  outline: 2px solid #AF4FFF;
+}
+
 .compare-button {
   position: relative;
   box-sizing: border-box;
   width: 105px;
-  margin-right: auto;
+  margin-right: 12px;
   padding: 0;
   padding-left: 22px;
   font: inherit;
