@@ -313,11 +313,13 @@ body {
   background: url(../images/icons/cart-icon.svg) no-repeat;
 }
 
-.cart-button::after {
+.cart-counter {
   position: absolute;
-  top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 14px;
   left: 0;
-  content: "2";
   width: 21px;
   height: 21px;
   font-size: 14px;
