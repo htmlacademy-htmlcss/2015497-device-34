@@ -594,7 +594,7 @@ body {
 
 .catalog-toggler-link {
   min-width: 224px;
-  margin-right: 343px;
+  margin-right: 342px;
   white-space: nowrap;
   cursor: default;
 }
@@ -946,8 +946,9 @@ body {
 
 /* Список категорий каталога */
 .categories-list {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 40px;
   margin: 0;
   margin-bottom: 70px;
   padding: 0;
@@ -1850,6 +1851,7 @@ body {
   line-height: 18px;
   background-color: transparent;
   border: none;
+  -moz-appearance: textfield;
 }
 
 .range-input:focus {
