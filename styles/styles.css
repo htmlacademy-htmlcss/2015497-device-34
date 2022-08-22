@@ -1456,6 +1456,7 @@ body {
 
 .footer-address-text {
   position: relative;
+  min-width: 239px;
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
