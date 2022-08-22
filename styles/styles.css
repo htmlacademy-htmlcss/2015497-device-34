@@ -488,7 +488,7 @@ body {
   width: 280px;
   margin: 0 20px 20px;
   padding: 14px 25px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.2em;
@@ -530,7 +530,7 @@ body {
   position: relative;
   z-index: 2;
   display: block;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   line-height: 21px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -813,7 +813,7 @@ body {
 .property-title {
   margin: 0;
   margin-bottom: 29px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
 }
@@ -835,7 +835,7 @@ body {
   justify-content: center;
   align-items: center;
   min-width: 220px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   line-height: 21px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -959,7 +959,7 @@ body {
   display: block;
   width: 160px;
   min-height: 253px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   line-height: 24px;
   letter-spacing: -0.02em;
   text-decoration: none;
@@ -1028,7 +1028,7 @@ body {
   width: 160px;
   min-height: 40px;
   padding: 0;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.2em;
@@ -1101,7 +1101,7 @@ body {
 .services-discription-title {
   margin: 0;
   margin-bottom: 34px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
 }
@@ -1118,7 +1118,7 @@ body {
   box-sizing: border-box;
   display: flex;
   margin-bottom: 117px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
@@ -1202,7 +1202,7 @@ body {
   position: relative;
   margin: 0;
   margin-bottom: 48px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
 }
@@ -1258,7 +1258,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   max-width: 270px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
@@ -1326,7 +1326,7 @@ body {
 .subscribe-title {
   max-width: 348px;
   margin: 0;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
 }
@@ -1373,7 +1373,7 @@ body {
 .subscribe-button {
   width: 253px;
   padding: 18px 39px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 21px;
   border: 3px solid #C4C4C4;
@@ -1494,7 +1494,7 @@ body {
 
 .footer-nav-link {
   position: relative;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.2em;
@@ -1655,7 +1655,7 @@ body {
 .header-title-inner {
   margin: 0;
   margin-bottom: 16px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
 }
@@ -1737,7 +1737,7 @@ body {
 
 .catalog-filter-title {
   margin: 25px 0 83px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.2em;
@@ -1954,7 +1954,7 @@ body {
 .catalog-filter-button {
   width: 220px;
   padding: 10px 5px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
@@ -1998,7 +1998,7 @@ body {
   align-items: center;
   margin: 0;
   margin-right: 206px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.2em;
@@ -2157,7 +2157,7 @@ body {
   width: 220px;
   min-height: 40px;
   padding: 0;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.2em;
@@ -2213,7 +2213,7 @@ body {
   margin: 0;
   margin-bottom: 44px;
   padding: 0;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.2em;
@@ -2281,7 +2281,7 @@ body {
   display: flex;
   align-items: center;
   min-height: 71px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.2em;
@@ -2376,7 +2376,7 @@ body {
 
 .modal-title {
   margin: 0;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
 }
