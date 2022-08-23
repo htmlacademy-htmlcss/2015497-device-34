@@ -127,6 +127,7 @@ body {
 .header-field {
   box-sizing: border-box;
   max-width: 360px;
+  height: 100%;
   padding: 8px 150px 9px 48px;
   font: inherit;
   font-size: 16px;
@@ -927,6 +928,10 @@ body {
   margin-right: 20px;
 }
 
+.property-specification-wrapper-slide {
+   margin-right: 40px;
+}
+
 .property-specification-wrapper:nth-child(4n) {
   margin-right: 0;
 }
@@ -1095,11 +1100,11 @@ body {
 }
 
 .services-discription-wrapper-warranty {
-  background: url(../images/icons/warranty-services-icon.svg) no-repeat 91% 50%;
+  background: url(../images/icons/warranty-services-icon.svg) no-repeat 96% 50%;
 }
 
 .services-discription-wrapper-credit {
-  background: url(../images/icons/credit-services-icon.svg) no-repeat 91% 50%;
+  background: url(../images/icons/credit-services-icon.svg) no-repeat 96% 50%;
 }
 
 .services-discription-title {
