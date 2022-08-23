@@ -354,7 +354,7 @@ body {
 .popover {
   position: absolute;
   top: 40px;
-  right: -80px;
+  right: -16px;
   display: none;
   z-index: 3;
   width: 320px;
@@ -383,7 +383,7 @@ body {
 .popover-item {
   position: relative;
   display: flex;
-  padding-top: 20px;
+  padding-top: 21px;
 }
 
 .popover-item + .popover-item {
@@ -438,10 +438,10 @@ body {
 .popover-close-button::after,
 .popover-close-button::before {
   position: absolute;
-  top: 5px;
-  left: 0;
+  top: 6px;
+  left: 5px;
   content: "";
-  width: 10px;
+  width: 13px;
   height: 1px;
   background-color: #FFFFFF;
 }
@@ -487,7 +487,7 @@ body {
 .popover-button {
   width: 280px;
   margin: 0 20px 20px;
-  padding: 14px 25px;
+  padding: 14px 26px;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -2418,8 +2418,8 @@ body {
 .modal-close-button::before {
   position: absolute;
   top: 12px;
-  left: 0;
-  width: 26px;
+  left: -3px;
+  width: 33px;
   height: 3px;
   background-color: #000000;
   content: "";
