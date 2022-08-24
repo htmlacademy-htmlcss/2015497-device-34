@@ -2391,11 +2391,6 @@ body {
   box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
-.modal-content {
-  display: flex;
-  flex-direction: column;
-}
-
 .modal-title-wrapper {
   display: flex;
   justify-content: space-between;
@@ -2451,14 +2446,9 @@ body {
   outline: 2px solid #AF4FFF;
 }
 
-.modal-form {
-  display: flex;
-  flex-direction: column;
-}
-
 .modal-group-field-wrapper {
   display: flex;
-  margin-bottom: 42px;
+  margin-bottom: 40px;
 }
 
 .modal-field-wrapper {
