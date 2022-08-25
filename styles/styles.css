@@ -31,7 +31,7 @@ body {
   flex-direction: column;
   margin: 0;
   min-height: 100%;
-  font-family: "Rubik", Arial, sans-serif;
+  font-family: "Rubik", "Arial", sans-serif;
   font-size: 18px;
   line-height: 30px;
   color: #000000;
@@ -183,8 +183,7 @@ body {
   width: 166px;
   height: 48px;
   border: 2px solid #AF4FFF;
-  ;
-}
+ }
 
 .search-button:active {
   color: rgba(255, 255, 255, 0.3);
@@ -1297,7 +1296,6 @@ body {
 .address-link {
   font-style: normal;
   color: #444444;
-
 }
 
 .address-title {
@@ -1688,7 +1686,7 @@ body {
   margin-right: 37px;
 }
 
-.breadcrumbs-item:not(:last-child):after {
+.breadcrumbs-item:not(:last-child)::after {
   position: absolute;
   left: 145px;
   top: 13px;
@@ -1698,7 +1696,7 @@ body {
   content: "";
 }
 
-.breadcrumbs-item:first-child:after {
+.breadcrumbs-item:first-child::after {
   position: absolute;
   left: 80px;
   top: 13px;
