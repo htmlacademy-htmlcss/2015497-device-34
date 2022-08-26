@@ -140,7 +140,7 @@ body {
 
 .header-field-wrapper:focus-within::before {
   position: absolute;
-  top: -4px;
+  top: -6px;
   left: -4px;
   width: 363px;
   height: 48px;
