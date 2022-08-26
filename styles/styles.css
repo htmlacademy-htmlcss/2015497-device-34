@@ -426,7 +426,7 @@ body {
 .popover-close-button {
   position: absolute;
   top: 20px;
-  right: 25px;
+  right: 19px;
   width: 10px;
   height: 10px;
   padding: 0;
@@ -438,8 +438,8 @@ body {
 .popover-close-button::after,
 .popover-close-button::before {
   position: absolute;
-  top: 6px;
-  left: 5px;
+  top: 5px;
+  left: -1px;
   content: "";
   width: 13px;
   height: 1px;
@@ -820,7 +820,7 @@ body {
 
 .property-discription {
   margin: 0;
-  margin-bottom: 61px;
+  margin-bottom: 51px;
   color: #444444;
 }
 
@@ -835,6 +835,7 @@ body {
   justify-content: center;
   align-items: center;
   min-width: 224px;
+  padding: 10px 5px;
   font-family: "Raleway", sans-serif;
   line-height: 21px;
   letter-spacing: 0.2em;
@@ -1876,6 +1877,11 @@ body {
   -moz-appearance: textfield;
 }
 
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
 .range-input:focus {
   outline: 2px solid #AF4FFF;
 }
@@ -2620,7 +2626,7 @@ body {
   line-height: 21px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  background: linear-gradient(to bottom, transparent 40%, #ffc700 40%, #ffc700 60%, transparent 60%);
+  background: linear-gradient(to bottom, transparent 40%, #ffe17f 40%, #ffe17f 60%, transparent 60%);
   border: none;
   cursor: pointer;
   outline: none;
