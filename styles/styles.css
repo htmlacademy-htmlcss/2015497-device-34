@@ -183,7 +183,7 @@ body {
   width: 166px;
   height: 48px;
   border: 2px solid #AF4FFF;
- }
+}
 
 .search-button:active {
   color: rgba(255, 255, 255, 0.3);
@@ -928,7 +928,7 @@ body {
 }
 
 .property-specification-wrapper-slide {
-   margin-right: 40px;
+  margin-right: 40px;
 }
 
 .property-specification-wrapper:nth-child(4n) {
@@ -1742,6 +1742,7 @@ body {
   padding-left: 30px;
 }
 
+
 /* Фильтрация */
 .catalog-filter {
   width: 260px;
@@ -1783,7 +1784,7 @@ body {
 
 .catalog-filter-group-title-color,
 .catalog-filter-group-title-bluetooth {
- margin-bottom: 17px;
+  margin-bottom: 17px;
 }
 
 .catalog-filter-group-title::before {
@@ -2225,8 +2226,7 @@ body {
   right: 27px;
   width: 60px;
   height: 60px;
-  background-color: transparent;
-  background: url("../images/icons/new-product-stcker.svg") no-repeat 50%;
+  background: url("../images/icons/new-product-stcker.svg") no-repeat 50% transparent;
   border: 2px solid rgba(0, 0, 0, 0.6);
   border-radius: 50%;
   content: "";
@@ -2659,8 +2659,7 @@ body {
   width: 26px;
   height: 26px;
   padding: 0;
-  background-color: #ffe17f;
-  background: url("../images/icons/tooltip-icon.svg") no-repeat top -1px center;
+  background: url("../images/icons/tooltip-icon.svg") no-repeat top -1px center #ffe17f;
   border-radius: 50%;
   border: none;
   cursor: pointer;
