@@ -25,7 +25,8 @@
           <div class="user-menu-wrapper">
             <form class="header-search-form" action="https://echo.htmlacademy.ru/" method="post">
               <div class="header-field-wrapper">
-                <input class="header-field" type="text" name="search-text" placeholder="Текст поиска">
+                <label class="visually-hidden" for="search-text">Текстовое поле для поиска.</label>
+                <input class="header-field" type="text" name="search-text" placeholder="Текст поиска" id="search-text">
               </div>
               <svg class="search-icon" width="16" height="17" viewBox="0 0 16 17" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -156,8 +157,10 @@
                   </div>
                 </div>
                 <div class="range-wrapper-inputs">
-                  <input class="range-input" type="number" name="min-price" placeholder="от 0">
-                  <input class="range-input" type="number" name="max-price" placeholder="до 5000">
+                  <label class="visually-hidden" for="min-price">Минимальная цена.</label>
+                  <input class="range-input" type="number" name="min-price" placeholder="от 0" id="min-price">
+                  <label class="visually-hidden" for="max-price">Максимальная цена.</label>
+                  <input class="range-input" type="number" name="max-price" placeholder="до 5000" id="max-price">
                 </div>
               </div>
             </fieldset>
@@ -454,10 +457,14 @@
                 </span>
 
                 <div class="modal-counter-wrapper">
-                  <button class="modal-counter modal-counter-minus" type="button"></button>
+                  <button class="modal-counter modal-counter-minus" type="button">
+                    <span class="visually-hidden">Уменьшит количество.</span>
+                  </button>
                   <input class="modal-field modal-field-counter" type="text" name="counter" placeholder="1"
                     id="modal-counter">
-                  <button class="modal-counter modal-counter-plus" type="button"></button>
+                  <button class="modal-counter modal-counter-plus" type="button">
+                    <span class="visually-hidden">Увеличить количество.</span>
+                  </button>
                 </div>
               </div>
             </div>

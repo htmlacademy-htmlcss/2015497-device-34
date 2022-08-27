@@ -24,7 +24,8 @@
           <div class="user-menu-wrapper">
             <form class="header-search-form" action="https://echo.htmlacademy.ru/" method="post">
               <div class="header-field-wrapper">
-                <input class="header-field" type="text" name="search-text" placeholder="Текст поиска">
+                <label class="visually-hidden" for="search-text">Текстовое поле для поиска.</label>
+                <input class="header-field" type="text" name="search-text" placeholder="Текст поиска" id="search-text">
               </div>
               <svg class="search-icon" width="16" height="17" viewBox="0 0 16 17" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -120,7 +121,7 @@
             <span class="slider-bg-number">01</span>
           </div>
 
-          <img class="slider-image" src="./images/slider-1.png" width="560" height="560" alt="Примеры девайсов">
+          <img class="slider-image" src="./images/slider-1.png" width="560" height="560" alt="Примеры девайсов.">
           <div class="slider-controls">
             <button class="slider-button slider-prev" type="button">
               <span class="visually-hidden">Предыдущее фото.</span>
@@ -174,7 +175,7 @@
             <span class="slider-bg-number">02</span>
           </div>
 
-          <img class="slider-image" src="./images/slider-2.png" width="560" height="560" alt="Примеры девайсов">
+          <img class="slider-image" src="./images/slider-2.png" width="560" height="560" alt="Примеры девайсов.">
           <div class="slider-controls">
             <button class="slider-button slider-prev" type="button">
               <span class="visually-hidden">Предыдущее фото.</span>
@@ -224,7 +225,7 @@
             <span class="slider-bg-number">03</span>
           </div>
 
-          <img class="slider-image" src="./images/slider-3.png" width="560" height="560" alt="Примеры девайсов">
+          <img class="slider-image" src="./images/slider-3.png" width="560" height="560" alt="Примеры девайсов.">
           <div class="slider-controls">
             <button class="slider-button slider-prev" type="button">
               <span class="visually-hidden">Предыдущее фото.</span>
@@ -587,10 +588,14 @@
                 </span>
 
                 <div class="modal-counter-wrapper">
-                  <button class="modal-counter modal-counter-minus" type="button"></button>
+                  <button class="modal-counter modal-counter-minus" type="button">
+                    <span class="visually-hidden">Уменьшит количество.</span>
+                  </button>
                   <input class="modal-field modal-field-counter" type="text" name="counter" placeholder="1"
                     id="modal-counter">
-                  <button class="modal-counter modal-counter-plus" type="button"></button>
+                  <button class="modal-counter modal-counter-plus" type="button">
+                    <span class="visually-hidden">Увеличить количество.</span>
+                  </button>
                 </div>
               </div>
             </div>
